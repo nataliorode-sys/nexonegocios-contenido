@@ -1,0 +1,67 @@
+{
+  "id": "2026-10-14-reel-mito-fundiendo",
+  "tipo": "reel",
+  "fecha": "2026-10-14",
+  "hora": "12:30",
+  "pilar": "Errores y mitos",
+  "titulo_interno": "Mito: si vende es porque se está fundiendo",
+  "escenas": [
+    {
+      "layout": "gancho",
+      "kicker": "Mito",
+      "texto": "«Si vende la empresa, **es porque se está fundiendo.**»"
+    },
+    {
+      "layout": "texto",
+      "titulo": "Casi nunca es así.",
+      "lineas": [
+        "La mayoría de las empresas que se venden **funcionan bien**.",
+        "Lo que cambia es la situación del dueño."
+      ]
+    },
+    {
+      "layout": "lista",
+      "titulo": "Por qué vende un dueño",
+      "items": [
+        {
+          "t": "No hay sucesión",
+          "d": "Los hijos eligieron otro camino."
+        },
+        {
+          "t": "Quiere retirarse",
+          "d": "Después de 20 o 30 años al frente."
+        },
+        {
+          "t": "Quiere invertir en otra cosa",
+          "d": "Liberar capital para un nuevo proyecto."
+        },
+        {
+          "t": "Necesita un socio para crecer",
+          "d": "Vende una parte, no todo."
+        }
+      ]
+    },
+    {
+      "layout": "texto",
+      "titulo": "El momento ideal para vender",
+      "lineas": [
+        "Es cuando la empresa **está bien**, no cuando el dueño ya está cansado.",
+        "Ahí es cuando se negocia con fuerza."
+      ]
+    },
+    {
+      "layout": "cierre",
+      "texto": "Vender no es fracasar. Es una decisión de negocios."
+    }
+  ],
+  "caption": "«Si la vende, por algo será.»\n\nEs uno de los prejuicios más comunes sobre la venta de empresas, y en la práctica casi nunca se cumple.\n\nLa mayoría de las PyMEs que salen a la venta funcionan bien. Lo que cambia es la situación del dueño: no hay quien la continúe, quiere retirarse, quiere invertir en otra cosa o necesita un socio para crecer.\n\nY hay algo más: el mejor momento para vender es justamente cuando la empresa está bien. Esperar a estar cansado o a que aparezcan problemas es lo que baja el precio.\n\n¿Qué otro mito escuchaste sobre vender una empresa?",
+  "hashtags": [
+    "#VentaDeEmpresas",
+    "#EmpresasFamiliares",
+    "#Sucesion",
+    "#PyMEs",
+    "#NexoNegocios"
+  ],
+  "musica": "Instrumental tranquilo (buscá «corporate» o «lofi» en Instagram), volumen bajo.",
+  "nota_publicacion": "Subir como Reel. Usar portada.jpg como portada. Agregar música desde Instagram."
+}

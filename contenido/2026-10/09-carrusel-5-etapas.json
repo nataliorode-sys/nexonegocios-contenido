@@ -1,0 +1,61 @@
+{
+  "id": "2026-10-19-carrusel-5-etapas",
+  "tipo": "carrusel",
+  "fecha": "2026-10-19",
+  "hora": "09:00",
+  "pilar": "Proceso",
+  "titulo_interno": "Las 5 etapas para vender una empresa",
+  "slides": [
+    {
+      "layout": "portada",
+      "kicker": "Venta de empresas",
+      "titulo": "Las 5 etapas para vender una empresa.\n==Sin saltear ninguna.==",
+      "bajada": "El orden importa tanto como el precio."
+    },
+    {
+      "layout": "texto",
+      "paso": "01",
+      "titulo": "Definir el objetivo",
+      "cuerpo": "¿Vender el 100%? ¿Una parte y seguir? ¿Sumar un socio? ¿Preparar la sucesión?\n\nEl objetivo define **qué comprador buscar** y cómo estructurar la operación."
+    },
+    {
+      "layout": "texto",
+      "paso": "02",
+      "titulo": "Valuar",
+      "cuerpo": "Analizar números, clientes, equipo y dependencia del dueño para llegar a un **valor defendible**.\n\nSirve para no vender barato y para no perder meses con un precio que nadie va a pagar."
+    },
+    {
+      "layout": "texto",
+      "paso": "03",
+      "titulo": "Preparar la empresa",
+      "cuerpo": "Ordenar la documentación, separar lo personal de lo de la empresa y armar los materiales: **teaser** anónimo y **memorándum** completo.\n\nUna empresa preparada negocia desde otro lugar."
+    },
+    {
+      "layout": "texto",
+      "paso": "04",
+      "titulo": "Buscar compradores",
+      "cuerpo": "Competidores, empresas complementarias, inversores, empresarios de otro rubro.\n\nContacto **confidencial** y por etapas: primero el teaser, después el NDA, después los números."
+    },
+    {
+      "layout": "texto",
+      "paso": "05",
+      "titulo": "Negociar y cerrar",
+      "cuerpo": "Carta de intención, **due diligence**, contrato y traspaso.\n\nAcá se define mucho más que el precio: forma de pago, garantías, qué pasa con la deuda y cuánto tiempo acompaña el dueño."
+    },
+    {
+      "layout": "cierre",
+      "titulo": "La mayoría de las ventas que fracasan se saltearon una etapa.",
+      "cuerpo": "Casi siempre la 2 o la 3: salir sin valor de referencia o sin la empresa preparada.",
+      "cta": "Guardalo y compartilo con tu socio"
+    }
+  ],
+  "caption": "Vender una empresa no es publicar un aviso y esperar llamados. Es un proceso con un orden:\n\n1. Definir el objetivo\n2. Valuar\n3. Preparar la empresa\n4. Buscar compradores\n5. Negociar y cerrar\n\nCuando una operación se cae, casi siempre es porque se salteó una etapa. Lo más común: salir a buscar compradores sin un valor de referencia o sin la información ordenada. El comprador lo nota en la primera reunión.\n\n¿En qué etapa estás vos?",
+  "hashtags": [
+    "#VentaDeEmpresas",
+    "#PyMEs",
+    "#EmpresasFamiliares",
+    "#FusionesYAdquisiciones",
+    "#NexoNegocios"
+  ],
+  "nota_publicacion": "Publicar como carrusel (7 imágenes, en orden)."
+}

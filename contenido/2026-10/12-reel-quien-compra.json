@@ -1,0 +1,59 @@
+{
+  "id": "2026-10-23-reel-quien-compra",
+  "tipo": "reel",
+  "fecha": "2026-10-23",
+  "hora": "12:30",
+  "pilar": "Mercado",
+  "titulo_interno": "Quién compra PyMEs en Argentina",
+  "escenas": [
+    {
+      "layout": "gancho",
+      "kicker": "Compradores",
+      "texto": "«¿Quién va a querer comprar **mi** empresa?» Más gente de la que creés."
+    },
+    {
+      "layout": "lista",
+      "titulo": "Los 4 compradores típicos",
+      "items": [
+        {
+          "t": "Competidores",
+          "d": "Suman clientes y escala de un día para el otro."
+        },
+        {
+          "t": "Empresas complementarias",
+          "d": "Un proveedor o un cliente que quiere integrarse."
+        },
+        {
+          "t": "Inversores",
+          "d": "Buscan un negocio rentable que ya funcione."
+        },
+        {
+          "t": "Empresarios de otro rubro",
+          "d": "Prefieren comprar en marcha antes que empezar de cero."
+        }
+      ]
+    },
+    {
+      "layout": "texto",
+      "titulo": "Cada uno paga por algo distinto.",
+      "lineas": [
+        "Un competidor paga por **sinergias**.",
+        "Un inversor, por la **ganancia que se sostiene sin el dueño**."
+      ]
+    },
+    {
+      "layout": "cierre",
+      "texto": "Encontrar al comprador correcto también es parte del precio."
+    }
+  ],
+  "caption": "Una de las frases que más escuchamos de los dueños: «¿y quién la va a querer comprar?».\n\nEn la práctica hay cuatro tipos de compradores para una PyME: competidores que buscan escala, empresas complementarias que quieren integrarse, inversores que buscan un negocio rentable y empresarios de otro rubro que prefieren comprar algo en marcha antes que empezar de cero.\n\nY cada uno valora cosas distintas. Un competidor puede pagar por las sinergias que él va a capturar. Un inversor mira cuánto gana la empresa sin el dueño.\n\nPor eso no alcanza con encontrar un comprador: hay que encontrar el que más valor le ve a tu empresa.",
+  "hashtags": [
+    "#CompraDeEmpresas",
+    "#Inversiones",
+    "#PyMEs",
+    "#VentaDeEmpresas",
+    "#NexoNegocios"
+  ],
+  "musica": "Instrumental tranquilo (buscá «corporate» o «lofi» en Instagram), volumen bajo.",
+  "nota_publicacion": "Subir como Reel. Usar portada.jpg como portada. Agregar música desde Instagram. Si este mes tenés una empresa en venta para mostrar, avisá y este reel se reemplaza por esa empresa."
+}

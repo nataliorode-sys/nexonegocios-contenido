@@ -1,0 +1,88 @@
+{
+  "id": "2026-10-13-carrusel-valor-acciones",
+  "tipo": "carrusel",
+  "fecha": "2026-10-13",
+  "hora": "09:00",
+  "pilar": "Valor",
+  "titulo_interno": "Valor de la empresa vs. valor de tus acciones",
+  "slides": [
+    {
+      "layout": "portada",
+      "kicker": "Valuación de empresas",
+      "titulo": "Tu empresa vale $760 M.\n==Vos cobrás $620 M.==",
+      "bajada": "La diferencia entre el valor de la empresa y el valor de tus acciones."
+    },
+    {
+      "layout": "texto",
+      "paso": "01",
+      "titulo": "Primero se valúa la operación",
+      "cuerpo": "Al EBITDA normalizado se le aplica un **múltiplo**. El resultado es el **valor de la empresa**: lo que vale el negocio funcionando, sin mirar cómo se financia.\n\nEs como el precio de una casa antes de saber si tiene hipoteca."
+    },
+    {
+      "layout": "texto",
+      "paso": "02",
+      "titulo": "Después se resta la deuda",
+      "cuerpo": "Préstamos bancarios, deudas financieras, cargas fiscales vencidas: todo lo que el comprador tendrá que pagar **se descuenta del precio**.\n\nEl comprador no paga dos veces: si asume la deuda, la paga con menos precio."
+    },
+    {
+      "layout": "texto",
+      "paso": "03",
+      "titulo": "Y se suma la caja que sobra",
+      "cuerpo": "El efectivo que no hace falta para operar **se suma**.\n\nOjo: la caja necesaria para el día a día no cuenta. Se discute cuánta es «necesaria», y ahí suele haber negociación."
+    },
+    {
+      "layout": "tabla",
+      "kicker": "Ejemplo ilustrativo",
+      "titulo": "Del valor de la empresa al valor de las acciones",
+      "filas": [
+        [
+          "EBITDA normalizado",
+          "$190 M"
+        ],
+        [
+          "× Múltiplo (ilustrativo)",
+          "× 4"
+        ],
+        [
+          "Valor de la empresa",
+          "$760 M"
+        ],
+        [
+          "− Deuda financiera",
+          "−$200 M",
+          "menos"
+        ],
+        [
+          "+ Caja excedente",
+          "+$60 M",
+          "mas"
+        ],
+        [
+          "Valor de las acciones",
+          "$620 M",
+          "total"
+        ]
+      ],
+      "nota": "Números redondos para explicar el método. Cada empresa tiene su múltiplo y sus ajustes."
+    },
+    {
+      "layout": "clave",
+      "texto": "Dos empresas con el mismo EBITDA pueden dejarle al dueño **montos muy distintos**.\nLa deuda también se vende."
+    },
+    {
+      "layout": "cierre",
+      "titulo": "Antes de comparar ofertas, mirá de qué valor habla cada una.",
+      "cuerpo": "Una oferta «por la empresa» y una oferta «por las acciones» no se comparan directo. La diferencia puede ser enorme.",
+      "cta": "Guardalo para tu próxima negociación"
+    }
+  ],
+  "caption": "Cuando un comprador dice «la empresa vale $760 millones», todavía no te dijo cuánto vas a cobrar.\n\nEl valor de la empresa es el de la operación funcionando. Para llegar a lo que recibe el dueño hay que restar la deuda financiera y sumar la caja que sobra.\n\nPor eso dos empresas con el mismo EBITDA y el mismo múltiplo pueden dejarle a sus dueños montos muy distintos.\n\nY por eso, al comparar ofertas, la primera pregunta es: ¿este número es por la empresa o por las acciones?\n\nEjemplo ilustrativo con números redondos para explicar el método.",
+  "hashtags": [
+    "#ValuacionDeEmpresas",
+    "#EBITDA",
+    "#PyMEs",
+    "#VentaDeEmpresas",
+    "#NexoNegocios"
+  ],
+  "nota_publicacion": "Publicar como carrusel (7 imágenes, en orden). El lunes 12 es feriado: por eso va el martes."
+}

@@ -1,0 +1,1 @@
+Las piezas generadas no se versionan: viven en el calendario publicado. Se regeneran con npm run generar.

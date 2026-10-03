@@ -1,0 +1,63 @@
+{
+  "id": "2026-10-28-reel-precio-irreal",
+  "tipo": "reel",
+  "fecha": "2026-10-28",
+  "hora": "12:30",
+  "pilar": "Errores y mitos",
+  "titulo_interno": "El error más caro: salir con un precio que nadie va a pagar",
+  "escenas": [
+    {
+      "layout": "gancho",
+      "kicker": "Error frecuente",
+      "texto": "El error más caro al vender una empresa **no es venderla barata.**"
+    },
+    {
+      "layout": "texto",
+      "titulo": "Es salir con un precio que nadie va a pagar.",
+      "lineas": [
+        "Pasan los meses y no aparecen ofertas serias.",
+        "Y el mercado empieza a sospechar."
+      ]
+    },
+    {
+      "layout": "lista",
+      "titulo": "Lo que pasa después",
+      "items": [
+        {
+          "t": "La empresa queda «quemada»",
+          "d": "Todos ya la vieron y nadie avanzó."
+        },
+        {
+          "t": "Se baja el precio",
+          "d": "Y el comprador lo lee como urgencia."
+        },
+        {
+          "t": "Se negocia desde la debilidad",
+          "d": "Y se termina vendiendo por menos."
+        }
+      ]
+    },
+    {
+      "layout": "texto",
+      "titulo": "Un valor defendible desde el inicio",
+      "lineas": [
+        "Protege el precio **y** el tiempo.",
+        "Es la base de cualquier negociación."
+      ]
+    },
+    {
+      "layout": "cierre",
+      "texto": "El precio de salida es una decisión estratégica, no un deseo."
+    }
+  ],
+  "caption": "Muchos dueños tienen miedo de vender barato. El riesgo más frecuente es el contrario: salir con un precio que el mercado no va a pagar.\n\nLo que pasa después es casi siempre igual. Los interesados miran, no avanzan, y la empresa queda «quemada» en el mercado. Cuando finalmente se baja el precio, el comprador lo lee como urgencia y negocia más fuerte.\n\nPor eso el precio de salida tiene que salir de una valuación defendible, no del número que el dueño tiene en la cabeza.\n\nGuardalo si estás pensando en vender.",
+  "hashtags": [
+    "#VentaDeEmpresas",
+    "#ValuacionDeEmpresas",
+    "#PyMEs",
+    "#Negociacion",
+    "#NexoNegocios"
+  ],
+  "musica": "Instrumental tranquilo (buscá «corporate» o «lofi» en Instagram), volumen bajo.",
+  "nota_publicacion": "Subir como Reel. Usar portada.jpg como portada. Agregar música desde Instagram."
+}

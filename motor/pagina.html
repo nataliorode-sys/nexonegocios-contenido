@@ -1,0 +1,178 @@
+<title>Calendario de contenido NexoNegocios</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Inter:wght@400;600;800&display=swap">
+<style>
+/* Layout: una columna de semanas; cada pieza es una ficha con vista previa, texto y acciones */
+:root {
+  --bg: #F6F4EF; --surface: #FFFFFF; --fg: #172023; --muted: #5E6B7A; --line: #E2DDD1;
+  --brand: #172A33; --accent: #2F8A2B; --accent-soft: #E6F2E3; --on-accent: #FFFFFF;
+  --display: "Fraunces", Georgia, serif; --body: "Inter", system-ui, sans-serif;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+  --bg: #0F1A1F; --surface: #172A33; --fg: #ECEFEA; --muted: #9AA8B2; --line: #2A3F49;
+  --brand: #ECEFEA; --accent: #5BBA55; --accent-soft: #1E3A2A; --on-accent: #0F1A1F; color-scheme: dark } }
+:root[data-theme="dark"] {
+  --bg: #0F1A1F; --surface: #172A33; --fg: #ECEFEA; --muted: #9AA8B2; --line: #2A3F49;
+  --brand: #ECEFEA; --accent: #5BBA55; --accent-soft: #1E3A2A; --on-accent: #0F1A1F; color-scheme: dark }
+* { box-sizing: border-box; }
+body { background: var(--bg); color: var(--fg); font: 15px/1.5 var(--body); padding-inline: 16px; padding-block: 24px 64px; }
+.wrap { max-width: 920px; margin: 0 auto; display: grid; gap: 28px; }
+header { display: grid; gap: 6px; }
+.eyebrow { font-size: 12px; font-weight: 800; letter-spacing: .14em; text-transform: uppercase; color: var(--accent); }
+h1 { font: 700 clamp(30px, 6vw, 44px)/1.05 var(--display); color: var(--brand); margin: 0; text-wrap: balance; }
+.resumen { color: var(--muted); }
+.barra { height: 6px; background: var(--line); border-radius: 6px; overflow: hidden; margin-top: 8px; }
+.barra i { display: block; height: 100%; background: var(--accent); width: 0; transition: width .3s; }
+details.guia { background: var(--surface); border: 1px solid var(--line); border-radius: 14px; padding: 14px 18px; }
+details.guia summary { cursor: pointer; font-weight: 800; color: var(--brand); }
+details.guia ol { margin: 10px 0 0; padding-left: 20px; display: grid; gap: 6px; }
+section.semana { display: grid; gap: 14px; }
+.semana h2 { font: 700 22px/1.2 var(--display); color: var(--brand); margin: 0; }
+.semana .cuando { color: var(--muted); font-size: 14px; margin-top: -8px; }
+.semana.actual h2::after { content: "Esta semana"; font: 800 11px var(--body); letter-spacing: .12em; text-transform: uppercase; background: var(--accent); color: var(--on-accent); padding: 3px 8px; border-radius: 20px; margin-left: 10px; vertical-align: middle; }
+article { background: var(--surface); border: 1px solid var(--line); border-radius: 16px; padding: 18px; display: grid; grid-template-columns: 74px 1fr; gap: 16px; }
+article.hecha { opacity: .62; }
+.fecha { text-align: center; border-right: 1px solid var(--line); padding-right: 14px; }
+.fecha .dia { font-size: 12px; font-weight: 800; letter-spacing: .12em; text-transform: uppercase; color: var(--muted); }
+.fecha .num { font: 700 34px/1 var(--display); color: var(--brand); }
+.fecha .hora { font-size: 13px; color: var(--muted); font-variant-numeric: tabular-nums; }
+.info { min-width: 0; display: grid; gap: 12px; }
+.meta { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
+.chip { font-size: 12px; font-weight: 800; padding: 3px 10px; border-radius: 20px; background: var(--accent-soft); color: var(--accent); }
+.chip.pilar { background: transparent; border: 1px solid var(--line); color: var(--muted); font-weight: 600; }
+h3 { margin: 0; font: 600 19px/1.25 var(--display); color: var(--brand); text-wrap: balance; }
+.prev { display: flex; gap: 8px; overflow-x: auto; scroll-snap-type: x mandatory; padding-bottom: 6px; }
+.prev img, .prev video { flex: 0 0 auto; height: 260px; width: auto; max-width: none; border-radius: 8px; scroll-snap-align: start; border: 1px solid var(--line); background: #172A33; }
+.nota { font-size: 14px; background: var(--accent-soft); color: var(--fg); padding: 10px 12px; border-radius: 10px; }
+.caption { white-space: pre-wrap; font-size: 14px; color: var(--fg); background: var(--bg); border: 1px solid var(--line); border-radius: 10px; padding: 12px; max-height: 150px; overflow: auto; }
+.acciones { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
+button { font: 600 14px var(--body); border-radius: 10px; padding: 9px 14px; cursor: pointer; border: 1px solid var(--line); background: var(--surface); color: var(--fg); }
+button.prim { background: var(--accent); border-color: var(--accent); color: var(--on-accent); }
+button:focus-visible, summary:focus-visible, input:focus-visible { outline: 3px solid var(--accent); outline-offset: 2px; }
+label.check { display: inline-flex; gap: 8px; align-items: center; font-size: 14px; color: var(--muted); margin-left: auto; cursor: pointer; }
+.aviso { font-size: 13px; color: var(--muted); min-height: 1em; }
+@media (max-width: 560px) {
+  article { grid-template-columns: 1fr; }
+  .fecha { border-right: none; border-bottom: 1px solid var(--line); padding: 0 0 10px; display: flex; gap: 10px; align-items: baseline; text-align: left; }
+  .prev img, .prev video { height: 220px; }
+  label.check { margin-left: 0; }
+}
+@media (prefers-reduced-motion: reduce) { .barra i { transition: none; } }
+</style>
+
+<div class="wrap">
+  <header>
+    <span class="eyebrow">NexoNegocios · Instagram</span>
+    <h1 id="titulo">Calendario de contenido</h1>
+    <span class="resumen" id="resumen"></span>
+    <div class="barra" aria-hidden="true"><i id="progreso"></i></div>
+  </header>
+  <details class="guia">
+    <summary>Cómo programar la semana (15 minutos)</summary>
+    <ol>
+      <li>Abrí <b>Meta Business Suite → Planificador</b> en la computadora.</li>
+      <li>Por cada carrusel o reel de la semana: tocá <b>Descargar</b> acá, subilo, tocá <b>Copiar texto</b> y pegalo.</li>
+      <li>Elegí el día y la hora que figuran en la ficha. En los reels, usá <b>portada.jpg</b> como portada y sumá música desde Instagram (volumen bajo).</li>
+      <li>Las <b>historias</b> llevan sticker (encuesta o enlace): subilas desde el celular el día indicado. Te llega el aviso al calendario.</li>
+      <li>Marcá <b>Programada</b> en cada ficha para llevar la cuenta.</li>
+    </ol>
+  </details>
+  <main id="semanas" class="wrap" style="gap:32px"></main>
+</div>
+
+<script type="application/json" id="datos">__DATOS__</script>
+<script>
+const datos = JSON.parse(document.getElementById("datos").textContent);
+const dias = ["Dom", "Lun", "Mar", "Mié", "Jue", "Vie", "Sáb"];
+const meses = ["enero", "febrero", "marzo", "abril", "mayo", "junio", "julio", "agosto", "septiembre", "octubre", "noviembre", "diciembre"];
+const tipos = { carrusel: "Carrusel", reel: "Reel", historia: "Historias" };
+const fechaDe = (s) => new Date(s + "T12:00:00");
+const leer = (k) => { try { return JSON.parse(localStorage.getItem(k) || "{}"); } catch { return {}; } };
+const guardar = (k, v) => { try { localStorage.setItem(k, JSON.stringify(v)); } catch {} };
+const CLAVE = "nexo-programadas";
+let hechas = leer(CLAVE);
+let descargas = null;
+window.claude?.use?.("downloads").then((d) => { descargas = d; }).catch(() => {});
+
+const nombres = datos.meses.map((m) => { const [a, n] = m.split("-").map(Number); return { a, n: meses[n - 1] }; });
+document.getElementById("titulo").textContent = "Contenido de " + (nombres.length === 1 ? `${nombres[0].n} ${nombres[0].a}` : nombres.map((x) => x.n).join(" y ") + ` ${nombres.at(-1).a}`);
+
+function lunesDe(d) { const x = new Date(d); x.setDate(x.getDate() - ((x.getDay() + 6) % 7)); return x; }
+const hoy = new Date();
+const semanas = new Map();
+for (const p of datos.piezas) {
+  const k = lunesDe(fechaDe(p.fecha)).toISOString().slice(0, 10);
+  if (!semanas.has(k)) semanas.set(k, []);
+  semanas.get(k).push(p);
+}
+
+function el(tag, attrs = {}, ...hijos) {
+  const e = document.createElement(tag);
+  for (const [k, v] of Object.entries(attrs)) k === "class" ? (e.className = v) : k.startsWith("on") ? e.addEventListener(k.slice(2), v) : e.setAttribute(k, v);
+  for (const h of hijos) if (h != null) e.append(h);
+  return e;
+}
+
+async function descargar(p, aviso) {
+  if (!descargas) { aviso.textContent = "Las descargas no están disponibles en esta vista. Abrí la página desde claude.ai."; return; }
+  for (const [i, f] of p.archivos.entries()) {
+    aviso.textContent = `Descargando ${i + 1} de ${p.archivos.length}…`;
+    try {
+      const blob = await (await fetch(f)).blob();
+      await descargas.save({ filename: `${p.id}-${f.split("/").pop()}`, data: blob });
+    } catch (e) {
+      if (e?.code === "declined") { aviso.textContent = "Descarga cancelada."; return; }
+      aviso.textContent = "No se pudo descargar: " + (e?.message || "error desconocido"); return;
+    }
+  }
+  aviso.textContent = "Listo, revisá tu carpeta de descargas.";
+}
+
+async function copiar(texto, aviso, caja) {
+  try { await navigator.clipboard.writeText(texto); aviso.textContent = "Texto copiado."; }
+  catch { const r = document.createRange(); r.selectNodeContents(caja); const s = getSelection(); s.removeAllRanges(); s.addRange(r); aviso.textContent = "Seleccioné el texto: copialo con el menú del teléfono."; }
+}
+
+function pintarProgreso() {
+  const n = datos.piezas.filter((p) => hechas[p.id]).length;
+  document.getElementById("resumen").textContent = `${datos.piezas.length} piezas · ${n} programadas`;
+  document.getElementById("progreso").style.width = (100 * n / datos.piezas.length) + "%";
+}
+
+const main = document.getElementById("semanas");
+[...semanas.keys()].sort().forEach((k, idx) => {
+  const lunes = fechaDe(k), domingo = new Date(lunes); domingo.setDate(domingo.getDate() + 6);
+  const previo = new Date(lunes); previo.setDate(previo.getDate() - 1);
+  const actual = hoy >= previo && hoy <= domingo;
+  const sec = el("section", { class: "semana" + (actual ? " actual" : ""), id: "semana" + (idx + 1) },
+    el("h2", {}, `Semana ${idx + 1}`),
+    el("div", { class: "cuando" }, `Del ${lunes.getDate()} al ${domingo.getDate()} de ${meses[domingo.getMonth()]} · programar el domingo ${previo.getDate()}`));
+  for (const p of semanas.get(k).sort((a, b) => (a.fecha + a.hora).localeCompare(b.fecha + b.hora))) {
+    const d = fechaDe(p.fecha);
+    const aviso = el("span", { class: "aviso", "aria-live": "polite" });
+    const caja = p.texto ? el("div", { class: "caption" }, p.texto) : null;
+    const prev = el("div", { class: "prev" });
+    if (p.tipo === "reel") prev.append(el("video", { src: p.video, poster: p.portada, controls: "", preload: "none", playsinline: "" }));
+    else for (const img of p.imagenes) prev.append(el("img", { src: img, alt: `${p.titulo}, imagen ${p.imagenes.indexOf(img) + 1}`, loading: "lazy" }));
+    const chk = el("input", { type: "checkbox", id: "chk-" + p.id });
+    chk.checked = !!hechas[p.id];
+    const art = el("article", { class: chk.checked ? "hecha" : "" },
+      el("div", { class: "fecha" }, el("div", { class: "dia" }, dias[d.getDay()]), el("div", { class: "num" }, String(d.getDate())), el("div", { class: "hora" }, p.hora)),
+      el("div", { class: "info" },
+        el("div", { class: "meta" }, el("span", { class: "chip" }, tipos[p.tipo]), el("span", { class: "chip pilar" }, p.pilar)),
+        el("h3", {}, p.titulo),
+        prev,
+        p.nota ? el("div", { class: "nota" }, p.nota) : null,
+        caja,
+        el("div", { class: "acciones" },
+          el("button", { class: "prim", type: "button", onclick: () => descargar(p, aviso) }, p.tipo === "reel" ? "Descargar video y portada" : `Descargar ${p.archivos.length > 1 ? p.archivos.length + " imágenes" : "imagen"}`),
+          caja ? el("button", { type: "button", onclick: () => copiar(p.texto, aviso, caja) }, "Copiar texto") : null,
+          el("label", { class: "check", for: "chk-" + p.id }, chk, "Programada")),
+        aviso));
+    chk.addEventListener("change", () => { hechas[p.id] = chk.checked; guardar(CLAVE, hechas); art.classList.toggle("hecha", chk.checked); pintarProgreso(); });
+    sec.append(art);
+  }
+  main.append(sec);
+});
+pintarProgreso();
+</script>

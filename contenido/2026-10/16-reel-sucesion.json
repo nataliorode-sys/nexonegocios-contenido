@@ -1,0 +1,66 @@
+{
+  "id": "2026-10-30-reel-sucesion",
+  "tipo": "reel",
+  "fecha": "2026-10-30",
+  "hora": "12:30",
+  "pilar": "Mercado",
+  "titulo_interno": "Cuando los hijos no quieren seguir con la empresa",
+  "escenas": [
+    {
+      "layout": "gancho",
+      "kicker": "Empresas familiares",
+      "texto": "Tus hijos no quieren seguir con la empresa. **¿Y ahora?**"
+    },
+    {
+      "layout": "texto",
+      "titulo": "Es más común de lo que parece.",
+      "lineas": [
+        "Y no significa que la empresa tenga que cerrar.",
+        "Hay al menos **cuatro caminos**."
+      ]
+    },
+    {
+      "layout": "lista",
+      "titulo": "Las opciones",
+      "items": [
+        {
+          "t": "Venta total",
+          "d": "A un competidor, inversor o empresario."
+        },
+        {
+          "t": "Venta parcial",
+          "d": "Sumar un socio que se haga cargo de la gestión."
+        },
+        {
+          "t": "Venta a la gerencia",
+          "d": "Quienes ya conocen el negocio."
+        },
+        {
+          "t": "Profesionalizar",
+          "d": "Gerente externo y la familia como accionista."
+        }
+      ]
+    },
+    {
+      "layout": "texto",
+      "titulo": "Lo que no funciona es esperar.",
+      "lineas": [
+        "Cuanto antes se planifica, **más opciones** hay y mejor es el precio."
+      ]
+    },
+    {
+      "layout": "cierre",
+      "texto": "Si estás en esta situación, escribinos. La primera conversación es confidencial."
+    }
+  ],
+  "caption": "«Mis hijos eligieron otra cosa.» Es una de las situaciones que más vemos en empresas familiares con 20 o 30 años de trayectoria.\n\nNo es un problema sin salida. Hay al menos cuatro caminos: vender el 100%, vender una parte a un socio que tome la gestión, vender a quienes hoy ya gerencian la empresa, o profesionalizarla con un gerente externo y mantener la propiedad en la familia.\n\nLo que sí juega en contra es el tiempo. Cuanto antes se planifica, más opciones hay y mejor es la negociación.\n\nSi estás en esta situación, escribinos por mensaje directo. La primera conversación es confidencial y sin compromiso.",
+  "hashtags": [
+    "#EmpresasFamiliares",
+    "#Sucesion",
+    "#VentaDeEmpresas",
+    "#PyMEs",
+    "#NexoNegocios"
+  ],
+  "musica": "Instrumental tranquilo (buscá «corporate» o «lofi» en Instagram), volumen bajo.",
+  "nota_publicacion": "Subir como Reel. Usar portada.jpg como portada. Agregar música desde Instagram."
+}

@@ -1,0 +1,20 @@
+{
+  "id": "2026-10-07-reel-ebitda-normalizado",
+  "tipo": "reel",
+  "fecha": "2026-10-07",
+  "hora": "12:30",
+  "pilar": "Valor",
+  "titulo_interno": "Del EBITDA contable al EBITDA que mira el comprador",
+  "escenas": [
+    { "layout": "gancho", "kicker": "Valuación", "texto": "Tu contador dice que ganás $180 M. **El comprador va a ver otro número.**" },
+    { "layout": "texto", "titulo": "Se llama EBITDA normalizado.", "lineas": ["Es el resultado de la operación **limpio** de todo lo que no se repite o no es de mercado.", "Y es la base sobre la que se negocia el precio."] },
+    { "layout": "tabla", "kicker": "Ejemplo ilustrativo", "titulo": "Cómo se ajusta", "filas": [["EBITDA contable", "$180 M"], ["+ Gastos personales del dueño", "+$20 M", "mas"], ["+ Gasto extraordinario (juicio)", "+$15 M", "mas"], ["− Sueldo de un gerente que lo reemplace", "−$25 M", "menos"], ["EBITDA normalizado", "$190 M", "total"]] },
+    { "layout": "comparacion", "titulo": "El ajuste que más se olvida", "izq": { "titulo": "Lo que suele pensar el dueño", "texto": "“Yo no me cobro sueldo, así que la empresa gana más.”" }, "der": { "titulo": "Lo que ve el comprador", "texto": "Alguien va a tener que hacer tu trabajo. Y ese sueldo **se resta**." } },
+    { "layout": "texto", "titulo": "Recién ahí se aplica un múltiplo.", "lineas": ["Y después se ajusta por **deuda y caja** para llegar al valor de las acciones."] },
+    { "layout": "cierre", "texto": "Si no sabés cuál es tu EBITDA normalizado, todavía no sabés cuánto vale tu empresa." }
+  ],
+  "caption": "El EBITDA del balance casi nunca es el que se usa para valuar una PyME.\n\nAntes hay que normalizarlo: sacar los gastos personales que pasan por la empresa, los hechos extraordinarios que no se van a repetir, y sumar el costo de reemplazar las funciones que hoy cumple el dueño sin cobrar sueldo de mercado.\n\nEse último ajuste es el que más se olvida, y el que más sorprende en una negociación.\n\nRecién sobre ese número tiene sentido hablar de múltiplos. Y después falta un paso más: deuda y caja, para pasar del valor de la empresa al valor de las acciones.\n\nGuardalo para la próxima vez que alguien te diga “tu empresa vale X veces lo que gana”.",
+  "hashtags": ["#EBITDA", "#ValuacionDeEmpresas", "#PyMEs", "#Finanzas", "#NexoNegocios"],
+  "musica": "Instrumental tranquilo (buscá «corporate» o «lofi» en Instagram, volumen bajo).",
+  "nota_publicacion": "Subir como Reel. Usar portada.jpg como portada. Agregar música desde Instagram."
+}

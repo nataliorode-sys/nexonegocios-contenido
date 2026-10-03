@@ -1,0 +1,67 @@
+{
+  "id": "2026-10-16-reel-nda",
+  "tipo": "reel",
+  "fecha": "2026-10-16",
+  "hora": "12:30",
+  "pilar": "Proceso",
+  "titulo_interno": "Qué es un NDA y por qué va antes de los números",
+  "escenas": [
+    {
+      "layout": "gancho",
+      "kicker": "Venta de empresas",
+      "texto": "Nunca muestres tus números **antes de este papel.**"
+    },
+    {
+      "layout": "texto",
+      "titulo": "Se llama NDA.",
+      "lineas": [
+        "Acuerdo de confidencialidad.",
+        "El interesado se compromete a **no usar ni divulgar** lo que va a ver."
+      ]
+    },
+    {
+      "layout": "lista",
+      "titulo": "Cómo se ordena la información",
+      "items": [
+        {
+          "t": "Teaser anónimo",
+          "d": "Rubro, zona, tamaño. Sin nombre."
+        },
+        {
+          "t": "Firma del NDA",
+          "d": "Solo con interesados que califican."
+        },
+        {
+          "t": "Memorándum completo",
+          "d": "Números, clientes, operación."
+        }
+      ]
+    },
+    {
+      "layout": "comparacion",
+      "titulo": "Por qué importa",
+      "izq": {
+        "titulo": "Sin orden",
+        "texto": "Un competidor «interesado» se lleva tus precios y tus clientes."
+      },
+      "der": {
+        "titulo": "Con proceso",
+        "texto": "Cada dato se muestra **a quién corresponde y cuando corresponde**."
+      }
+    },
+    {
+      "layout": "cierre",
+      "texto": "La confidencialidad no es un detalle. Es parte del valor."
+    }
+  ],
+  "caption": "El error más frecuente de quien vende solo: mandar el balance al primero que pregunta.\n\nEn un proceso ordenado la información se muestra por etapas. Primero un teaser anónimo: rubro, zona y tamaño, sin nombre. Si el interesado califica, firma un acuerdo de confidencialidad (NDA). Recién ahí accede al memorándum con números, clientes y operación.\n\nEso protege a la empresa de curiosos y, sobre todo, de competidores que se acercan a mirar.\n\nGuardalo si estás pensando en vender.",
+  "hashtags": [
+    "#VentaDeEmpresas",
+    "#Confidencialidad",
+    "#NDA",
+    "#PyMEs",
+    "#NexoNegocios"
+  ],
+  "musica": "Instrumental tranquilo (buscá «corporate» o «lofi» en Instagram), volumen bajo.",
+  "nota_publicacion": "Subir como Reel. Usar portada.jpg como portada. Agregar música desde Instagram."
+}

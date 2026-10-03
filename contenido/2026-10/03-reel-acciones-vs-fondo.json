@@ -1,0 +1,19 @@
+{
+  "id": "2026-10-09-reel-acciones-vs-fondo",
+  "tipo": "reel",
+  "fecha": "2026-10-09",
+  "hora": "12:30",
+  "pilar": "Proceso",
+  "titulo_interno": "Comprar las acciones o el fondo de comercio",
+  "escenas": [
+    { "layout": "gancho", "kicker": "Compra de empresas", "texto": "No es lo mismo comprar **la empresa** que comprar **el negocio.**" },
+    { "layout": "comparacion", "titulo": "Dos caminos", "izq": { "titulo": "Comprar las acciones", "texto": "Te quedás con la sociedad entera: contratos, habilitaciones, historia… **y sus deudas**." }, "der": { "titulo": "Comprar el fondo de comercio", "texto": "Comprás los activos del negocio: marca, clientes, equipos. **La sociedad y su pasado quedan del lado del vendedor.**" } },
+    { "layout": "lista", "titulo": "¿Cuándo conviene cada uno?", "items": [{ "t": "Acciones", "d": "Si las habilitaciones o contratos no se pueden transferir fácilmente." }, { "t": "Fondo de comercio", "d": "Si hay pasivos o contingencias que el comprador no quiere asumir." }, { "t": "Mixto", "d": "Muchas operaciones combinan ambos con garantías y retenciones." }] },
+    { "layout": "texto", "titulo": "La estructura también es precio.", "lineas": ["Dos ofertas con el mismo número pueden valer muy distinto según **qué** se compra y **qué riesgos** se transfieren."] },
+    { "layout": "cierre", "texto": "Antes de discutir el precio, definí qué se está comprando." }
+  ],
+  "caption": "Una de las primeras preguntas en cualquier compraventa: ¿se compran las acciones de la sociedad o el fondo de comercio?\n\nComprando acciones te quedás con todo: contratos, habilitaciones, historia y también los pasivos, incluso los que no aparecen en el balance. Por eso existe la due diligence.\n\nComprando el fondo de comercio te llevás los activos del negocio y la sociedad sigue siendo del vendedor, con su pasado.\n\nNinguna es mejor en abstracto. Depende de qué habilitaciones hay que conservar, qué contingencias existen y cómo se arma el pago.\n\nPor eso decimos que la estructura también es precio.\n\n¿Lo sabías? Contanos en comentarios.",
+  "hashtags": ["#CompraDeEmpresas", "#FondoDeComercio", "#DueDiligence", "#PyMEs", "#NexoNegocios"],
+  "musica": "Instrumental tranquilo, volumen bajo.",
+  "nota_publicacion": "Subir como Reel. Usar portada.jpg como portada. Agregar música desde Instagram."
+}

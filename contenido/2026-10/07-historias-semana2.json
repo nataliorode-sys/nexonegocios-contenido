@@ -1,0 +1,25 @@
+{
+  "id": "2026-10-15-historia-verdadero-falso-deudas",
+  "tipo": "historia",
+  "fecha": "2026-10-15",
+  "hora": "10:00",
+  "pilar": "Proceso",
+  "titulo_interno": "Verdadero o falso: si compro la empresa me quedo con las deudas",
+  "slides": [
+    {
+      "layout": "encuesta",
+      "kicker": "¿Verdadero o falso?",
+      "titulo": "«Si compro una empresa, me quedo con todas sus deudas.»",
+      "cuerpo": "Respondé y mañana te contamos."
+    },
+    {
+      "layout": "teaser",
+      "kicker": "La respuesta",
+      "titulo": "**Depende** de qué compres.",
+      "cuerpo": "Si comprás las acciones, sí. Si comprás el fondo de comercio, no.\n\nY en los dos casos la due diligence sirve para saber qué hay antes de firmar."
+    }
+  ],
+  "caption": "",
+  "hashtags": [],
+  "nota_publicacion": "Historia 1: agregá el sticker de ENCUESTA con «Verdadero» / «Falso». Historia 2: subila al día siguiente (viernes) a la mañana."
+}

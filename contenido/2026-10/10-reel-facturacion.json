@@ -1,0 +1,55 @@
+{
+  "id": "2026-10-21-reel-facturacion-no-es-valor",
+  "tipo": "reel",
+  "fecha": "2026-10-21",
+  "hora": "12:30",
+  "pilar": "Valor",
+  "titulo_interno": "Por qué «vale un año de facturación» es un atajo peligroso",
+  "escenas": [
+    {
+      "layout": "gancho",
+      "kicker": "Valuación",
+      "texto": "«Una empresa vale un año de facturación.» **Falso.**"
+    },
+    {
+      "layout": "texto",
+      "kicker": "Ejemplo ilustrativo",
+      "titulo": "Dos empresas facturan $1.000 M",
+      "lineas": [
+        "La empresa A gana el **5%**.",
+        "La empresa B gana el **20%**."
+      ]
+    },
+    {
+      "layout": "dato",
+      "kicker": "Ganancia operativa de B",
+      "antes": "$",
+      "valor": 200,
+      "despues": " M",
+      "label": "contra $50 M de A",
+      "linea": "La misma facturación, **cuatro veces** más ganancia."
+    },
+    {
+      "layout": "texto",
+      "titulo": "El comprador paga por lo que el negocio deja.",
+      "lineas": [
+        "No por lo que mueve.",
+        "Por eso el valor se calcula sobre la ganancia normalizada, no sobre las ventas."
+      ]
+    },
+    {
+      "layout": "cierre",
+      "texto": "Si tu número sale de la facturación, todavía no es un valor."
+    }
+  ],
+  "caption": "«Las empresas se venden a un año de facturación.» Es una de las reglas que más se repiten, y una de las que más daño hace en una negociación.\n\nDos empresas pueden facturar exactamente lo mismo y dejar ganancias muy distintas. Si una gana el 5% y la otra el 20%, la segunda genera cuatro veces más. Ningún comprador va a pagar lo mismo por las dos.\n\nEl valor se construye sobre la ganancia normalizada, el riesgo y el potencial del negocio. La facturación es un dato, no un precio.\n\nEjemplo ilustrativo con números redondos.",
+  "hashtags": [
+    "#ValuacionDeEmpresas",
+    "#PyMEs",
+    "#Finanzas",
+    "#VentaDeEmpresas",
+    "#NexoNegocios"
+  ],
+  "musica": "Instrumental tranquilo (buscá «corporate» o «lofi» en Instagram), volumen bajo.",
+  "nota_publicacion": "Subir como Reel. Usar portada.jpg como portada. Agregar música desde Instagram."
+}

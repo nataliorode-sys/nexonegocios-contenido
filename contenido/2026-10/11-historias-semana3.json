@@ -1,0 +1,25 @@
+{
+  "id": "2026-10-22-historia-sucesion",
+  "tipo": "historia",
+  "fecha": "2026-10-22",
+  "hora": "10:00",
+  "pilar": "Mercado",
+  "titulo_interno": "Encuesta: ¿alguien va a seguir con tu empresa?",
+  "slides": [
+    {
+      "layout": "encuesta",
+      "kicker": "Pregunta para dueños",
+      "titulo": "¿Alguien de tu familia va a seguir con la empresa?",
+      "cuerpo": "Respondé con sinceridad. Es anónimo."
+    },
+    {
+      "layout": "teaser",
+      "kicker": "Esta semana",
+      "titulo": "Las **5 etapas** para vender una empresa, en orden.",
+      "cuerpo": "Si la respuesta fue «no sé», empezá por la etapa 1."
+    }
+  ],
+  "caption": "",
+  "hashtags": [],
+  "nota_publicacion": "Historia 1: sticker de ENCUESTA con «Sí» / «No» / «No sé» (si no hay 3 opciones, usá «Sí» / «Todavía no sé»). Historia 2: sticker de ENLACE o compartí el carrusel del lunes."
+}

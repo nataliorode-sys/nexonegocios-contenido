@@ -1,0 +1,17 @@
+{
+  "name": "nexonegocios-contenido",
+  "version": "1.0.0",
+  "description": "Fábrica de contenido de autoridad para el Instagram de NexoNegocios",
+  "scripts": {
+    "generar": "node motor/generar.mjs",
+    "revision": "node motor/revision.mjs",
+    "entrega": "node motor/entrega.mjs"
+  },
+  "dependencies": {
+    "@fontsource/fraunces": "^5.3.0",
+    "@fontsource/inter": "^5.3.0",
+    "playwright": "1.56.1"
+  },
+  "private": true,
+  "type": "module"
+}

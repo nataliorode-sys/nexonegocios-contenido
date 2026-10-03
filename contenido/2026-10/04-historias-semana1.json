@@ -1,0 +1,27 @@
+{
+  "id": "2026-10-08-historia-encuesta-valor",
+  "tipo": "historia",
+  "fecha": "2026-10-08",
+  "hora": "10:00",
+  "pilar": "Valor",
+  "titulo_interno": "Encuesta: ¿sabés cuánto vale tu empresa?",
+  "slides": [
+    {
+      "layout": "encuesta",
+      "kicker": "Pregunta para dueños",
+      "titulo": "¿Sabés cuánto vale tu empresa hoy?",
+      "cuerpo": "Sin contar lo que te gustaría que valga.",
+      "sticker": "Poné acá el sticker de encuesta"
+    },
+    {
+      "layout": "teaser",
+      "kicker": "Te cuento algo",
+      "titulo": "La mayoría de los dueños **sobreestima** el valor de su empresa.",
+      "cuerpo": "No por soberbia: porque miran lo que facturan, no lo que el negocio genera sin ellos.\n\nLo explicamos en el último post 👇",
+      "sticker": "Poné acá el sticker de enlace al post"
+    }
+  ],
+  "caption": "",
+  "hashtags": [],
+  "nota_publicacion": "Historia 1: agregá el sticker de ENCUESTA con las opciones «Sí, tengo un número» / «Ni idea». Historia 2: agregá el sticker de ENLACE o compartí el carrusel del lunes."
+}

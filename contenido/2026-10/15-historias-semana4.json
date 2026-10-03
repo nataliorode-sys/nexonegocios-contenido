@@ -1,0 +1,25 @@
+{
+  "id": "2026-10-29-historia-forma-de-pago",
+  "tipo": "historia",
+  "fecha": "2026-10-29",
+  "hora": "10:00",
+  "pilar": "Proceso",
+  "titulo_interno": "Encuesta: ¿contado más bajo o cuotas más alto?",
+  "slides": [
+    {
+      "layout": "encuesta",
+      "kicker": "Vos qué elegirías",
+      "titulo": "¿$500 M de contado o $650 M en 24 cuotas?",
+      "cuerpo": "Por la misma empresa."
+    },
+    {
+      "layout": "teaser",
+      "kicker": "No hay respuesta única",
+      "titulo": "Depende de **garantías, moneda y riesgo.**",
+      "cuerpo": "Lo explicamos en el último carrusel: las 4 formas de pagar una empresa."
+    }
+  ],
+  "caption": "",
+  "hashtags": [],
+  "nota_publicacion": "Historia 1: sticker de ENCUESTA con «Contado» / «Cuotas». Historia 2: sticker de ENLACE o compartí el carrusel del lunes."
+}

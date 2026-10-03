@@ -1,0 +1,59 @@
+{
+  "id": "2026-10-26-carrusel-como-se-paga",
+  "tipo": "carrusel",
+  "fecha": "2026-10-26",
+  "hora": "09:00",
+  "pilar": "Proceso",
+  "titulo_interno": "Cómo se paga una empresa",
+  "slides": [
+    {
+      "layout": "portada",
+      "kicker": "Compraventa de empresas",
+      "titulo": "El precio es la mitad.\n==La otra mitad es cómo se paga.==",
+      "bajada": "Cuatro formas de pago y qué riesgo asume cada parte."
+    },
+    {
+      "layout": "texto",
+      "paso": "01",
+      "titulo": "Contado",
+      "cuerpo": "Todo al cierre. Es lo más simple y lo que más quiere el vendedor.\n\nPor eso suele tener un **precio menor**: el comprador asume todo el riesgo desde el día uno."
+    },
+    {
+      "layout": "texto",
+      "paso": "02",
+      "titulo": "Cuotas",
+      "cuerpo": "Una parte al cierre y el resto en plazos.\n\nEl vendedor **financia** al comprador. Hay que definir garantías, moneda y qué pasa si se atrasa un pago."
+    },
+    {
+      "layout": "texto",
+      "paso": "03",
+      "titulo": "Earn-out",
+      "cuerpo": "Una parte del precio **depende de los resultados futuros**: si la empresa alcanza ciertas metas, el vendedor cobra más.\n\nSirve cuando comprador y vendedor no se ponen de acuerdo en cuánto va a crecer el negocio."
+    },
+    {
+      "layout": "texto",
+      "paso": "04",
+      "titulo": "Retención",
+      "cuerpo": "Una parte del precio queda **retenida** por un tiempo para cubrir contingencias que aparezcan después del cierre: juicios, deudas no declaradas, reclamos.\n\nSi no aparece nada, se libera."
+    },
+    {
+      "layout": "clave",
+      "texto": "Una oferta más alta en cuotas puede valer **menos** que una más baja de contado."
+    },
+    {
+      "layout": "cierre",
+      "titulo": "Antes de aceptar un número, mirá cómo se cobra.",
+      "cuerpo": "Plazo, moneda, garantías y condiciones cambian el valor real de una oferta tanto como el precio.",
+      "cta": "Guardalo para cuando recibas una oferta"
+    }
+  ],
+  "caption": "Cuando llega una oferta por una empresa, el número es lo primero que se mira. Pero la forma de pago puede cambiar su valor tanto como el precio.\n\nContado, cuotas, earn-out y retenciones reparten el riesgo de manera distinta entre comprador y vendedor. Por eso una oferta más alta en cuotas, sin garantías y en pesos, puede valer menos que una más baja de contado.\n\nEn la mayoría de las operaciones se combinan: una parte al cierre, otra en plazos y una retención por contingencias.\n\n¿Cuál te daría más tranquilidad a vos?",
+  "hashtags": [
+    "#CompraDeEmpresas",
+    "#VentaDeEmpresas",
+    "#EarnOut",
+    "#PyMEs",
+    "#NexoNegocios"
+  ],
+  "nota_publicacion": "Publicar como carrusel (7 imágenes, en orden)."
+}

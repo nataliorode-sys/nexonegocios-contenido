@@ -1,0 +1,20 @@
+{
+  "id": "2026-10-05-carrusel-misma-facturacion",
+  "tipo": "carrusel",
+  "fecha": "2026-10-05",
+  "hora": "09:00",
+  "pilar": "Valor",
+  "titulo_interno": "Dos empresas facturan lo mismo y una vale el doble",
+  "slides": [
+    { "layout": "portada", "kicker": "Valuación de empresas", "titulo": "Dos empresas facturan lo mismo.\n==Una vale el doble.==", "bajada": "Lo que mira un comprador y casi nunca aparece en el balance." },
+    { "layout": "comparacion", "kicker": "Mismo rubro · Misma facturación", "titulo": "Empresa A vs. Empresa B", "izq": { "titulo": "Empresa A", "items": ["El dueño atiende a los clientes clave", "3 clientes = 60% de las ventas", "Gastos personales mezclados con la empresa", "Sin contratos escritos"] }, "der": { "titulo": "Empresa B", "items": ["Un encargado lleva la operación", "Ningún cliente supera el 10%", "Números ordenados y auditables", "Contratos y marca registrada"] } },
+    { "layout": "texto", "paso": "01", "titulo": "Dependencia del dueño", "cuerpo": "Si el negocio funciona porque **vos** estás, el comprador no está comprando una empresa: está comprando un trabajo.\n\nCada función que solo hace el dueño es un riesgo que **baja el precio** o se traslada a un pago en cuotas condicionado." },
+    { "layout": "texto", "paso": "02", "titulo": "Concentración de clientes", "cuerpo": "Cuando pocos clientes explican gran parte de la facturación, la pregunta del comprador es una sola: **¿qué pasa si se va uno?**\n\nUna cartera diversificada vale más que una cartera grande pero frágil." },
+    { "layout": "texto", "paso": "03", "titulo": "Calidad de la información", "cuerpo": "Un comprador paga por lo que puede **verificar**.\n\nLo que no está documentado, para él no existe. Y lo que no puede medir lo descuenta del precio." },
+    { "layout": "clave", "texto": "El valor no está en cuánto vendés.\nEstá en **cuán probable** es que lo sigas vendiendo sin vos." },
+    { "layout": "cierre", "titulo": "Antes de pensar en un precio, revisá estos tres puntos.", "cuerpo": "Son los que más mueven el valor en una PyME y los que antes se pueden mejorar.", "cta": "Guardalo para cuando lo necesites" }
+  ],
+  "caption": "Dos empresas del mismo rubro, con la misma facturación, pueden valer muy distinto.\n\nPorque quien compra no paga por lo que la empresa vendió el año pasado. Paga por la probabilidad de que lo siga vendiendo cuando el dueño ya no esté.\n\nEn las valuaciones que hacemos, tres factores aparecen una y otra vez:\n\n1. Cuánto depende el negocio del dueño\n2. Cuán concentrados están los clientes\n3. Qué tan verificable es la información\n\nLa buena noticia: los tres se pueden trabajar antes de salir a vender. Y cada uno que mejorás, se nota en el precio.\n\n¿Cuál de los tres es el punto débil de tu empresa?",
+  "hashtags": ["#ValuacionDeEmpresas", "#PyMEs", "#EmpresasFamiliares", "#VentaDeEmpresas", "#NexoNegocios"],
+  "nota_publicacion": "Publicar como carrusel (7 imágenes, en orden)."
+}
