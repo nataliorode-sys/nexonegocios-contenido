@@ -38,7 +38,7 @@ Cada tema tiene el formato sugerido entre corchetes. Cuando se usa, agregar `✓
 - Mito: «si compro la empresa me quedo con todas las deudas» [reel]
 - Mito: «nadie va a querer comprar mi empresa» [reel]
 - El error más caro: salir a vender con un precio que nunca se va a pagar [reel] ✓ 2026-10-28
-- Publicar la empresa en un portal: por qué puede bajar el valor [carrusel]
+- Publicar la empresa en un portal: por qué puede bajar el valor [carrusel] — NO USAR mientras exista Nexo Directo (contradice ese servicio)
 - Negociar el precio antes de definir la estructura [reel]
 - Esperar a estar cansado o con problemas para vender [carrusel]
 - Mezclar gastos personales con la empresa: cuánto cuesta en la venta [reel]
