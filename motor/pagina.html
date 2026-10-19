@@ -1,4 +1,5 @@
 <title>Calendario de contenido NexoNegocios</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Inter:wght@400;600;800&display=swap">
 <style>
@@ -42,6 +43,9 @@ article.hecha { opacity: .62; }
 .chip.pilar { background: transparent; border: 1px solid var(--line); color: var(--muted); font-weight: 600; }
 h3 { margin: 0; font: 600 19px/1.25 var(--display); color: var(--brand); text-wrap: balance; }
 .prev { display: flex; gap: 8px; overflow-x: auto; scroll-snap-type: x mandatory; padding-bottom: 6px; }
+.mini { flex: 0 0 auto; display: grid; gap: 6px; justify-items: start; scroll-snap-align: start; }
+.mini img { height: 260px; }
+button.chico { font-size: 12px; padding: 4px 10px; border-radius: 8px; }
 .prev img, .prev video { flex: 0 0 auto; height: 260px; width: auto; max-width: none; border-radius: 8px; scroll-snap-align: start; border: 1px solid var(--line); background: #172A33; }
 .nota { font-size: 14px; background: var(--accent-soft); color: var(--fg); padding: 10px 12px; border-radius: 10px; }
 .caption { white-space: pre-wrap; font-size: 14px; color: var(--fg); background: var(--bg); border: 1px solid var(--line); border-radius: 10px; padding: 12px; max-height: 150px; overflow: auto; }
@@ -54,7 +58,7 @@ label.check { display: inline-flex; gap: 8px; align-items: center; font-size: 14
 @media (max-width: 560px) {
   article { grid-template-columns: 1fr; }
   .fecha { border-right: none; border-bottom: 1px solid var(--line); padding: 0 0 10px; display: flex; gap: 10px; align-items: baseline; text-align: left; }
-  .prev img, .prev video { height: 220px; }
+  .prev img, .prev video, .mini img { height: 220px; }
   label.check { margin-left: 0; }
 }
 @media (prefers-reduced-motion: reduce) { .barra i { transition: none; } }
@@ -113,17 +117,36 @@ function el(tag, attrs = {}, ...hijos) {
   return e;
 }
 
-async function descargar(p, aviso) {
-  if (!descargas) { aviso.textContent = "Las descargas no están disponibles en esta vista. Abrí la página desde claude.ai."; return; }
-  for (const [i, f] of p.archivos.entries()) {
-    aviso.textContent = `Descargando ${i + 1} de ${p.archivos.length}…`;
-    try {
-      const blob = await (await fetch(f)).blob();
-      await descargas.save({ filename: `${p.id}-${f.split("/").pop()}`, data: blob });
-    } catch (e) {
-      if (e?.code === "declined") { aviso.textContent = "Descarga cancelada."; return; }
-      aviso.textContent = "No se pudo descargar: " + (e?.message || "error desconocido"); return;
+// Una descarga por vez; si la plataforma pide esperar entre confirmaciones, reintenta solo.
+async function guardar1(ruta, nombre, aviso) {
+  const blob = await (await fetch(ruta)).blob();
+  for (let intento = 0; ; intento++) {
+    try { await descargas.save({ filename: nombre, data: blob }); return true; }
+    catch (e) {
+      if (e?.code === "rate_limited" && intento < 4) { aviso.textContent = "Esperando para la próxima descarga…"; await new Promise((r) => setTimeout(r, 2500)); continue; }
+      if (e?.code === "declined") { aviso.textContent = "Descarga cancelada."; return false; }
+      aviso.textContent = "No se pudo descargar: " + (e?.message || "error desconocido"); return false;
     }
+  }
+}
+
+// Todas las imágenes de un carrusel en un solo .zip, armado en el navegador: una sola confirmación.
+async function descargarZip(p, aviso) {
+  if (!descargas) { aviso.textContent = "Las descargas no están disponibles en esta vista. Abrí la página desde claude.ai."; return; }
+  if (!window.JSZip) return descargar(p, aviso, p.imagenes);
+  aviso.textContent = "Preparando el archivo…";
+  const zip = new JSZip();
+  for (const f of p.imagenes) zip.file(f.split("/").pop(), await (await fetch(f)).blob());
+  const blob = await zip.generateAsync({ type: "blob" });
+  try { await descargas.save({ filename: `${p.id}.zip`, data: blob }); aviso.textContent = "Listo: descomprimí el .zip y subí las imágenes en orden (01, 02…)."; }
+  catch (e) { aviso.textContent = e?.code === "declined" ? "Descarga cancelada." : "No se pudo descargar: " + (e?.message || "error desconocido"); }
+}
+
+async function descargar(p, aviso, rutas) {
+  if (!descargas) { aviso.textContent = "Las descargas no están disponibles en esta vista. Abrí la página desde claude.ai."; return; }
+  for (const [i, f] of rutas.entries()) {
+    if (rutas.length > 1) aviso.textContent = `Descargando ${i + 1} de ${rutas.length}…`;
+    if (!(await guardar1(f, `${p.id}-${f.split("/").pop()}`, aviso))) return;
   }
   aviso.textContent = "Listo, revisá tu carpeta de descargas.";
 }
@@ -153,7 +176,9 @@ const main = document.getElementById("semanas");
     const caja = p.texto ? el("div", { class: "caption" }, p.texto) : null;
     const prev = el("div", { class: "prev" });
     if (p.tipo === "reel") prev.append(el("video", { src: p.video, poster: p.portada, controls: "", preload: "none", playsinline: "" }));
-    else for (const img of p.imagenes) prev.append(el("img", { src: img, alt: `${p.titulo}, imagen ${p.imagenes.indexOf(img) + 1}`, loading: "lazy" }));
+    else p.imagenes.forEach((img, k) => prev.append(el("div", { class: "mini" },
+      el("img", { src: img, alt: `${p.titulo}, imagen ${k + 1}`, loading: "lazy" }),
+      el("button", { type: "button", class: "chico", "aria-label": `Descargar imagen ${k + 1}`, onclick: () => descargar(p, aviso, [img]) }, `↓ ${k + 1}`))));
     const chk = el("input", { type: "checkbox", id: "chk-" + p.id });
     chk.checked = !!hechas[p.id];
     const art = el("article", { class: chk.checked ? "hecha" : "" },
@@ -165,7 +190,10 @@ const main = document.getElementById("semanas");
         p.nota ? el("div", { class: "nota" }, p.nota) : null,
         caja,
         el("div", { class: "acciones" },
-          el("button", { class: "prim", type: "button", onclick: () => descargar(p, aviso) }, p.tipo === "reel" ? "Descargar video y portada" : `Descargar ${p.archivos.length > 1 ? p.archivos.length + " imágenes" : "imagen"}`),
+          p.tipo === "reel"
+            ? el("button", { class: "prim", type: "button", onclick: () => descargar(p, aviso, [p.video]) }, "Descargar video")
+            : el("button", { class: "prim", type: "button", onclick: () => p.imagenes.length > 1 ? descargarZip(p, aviso) : descargar(p, aviso, p.imagenes) }, p.imagenes.length > 1 ? `Descargar las ${p.imagenes.length} imágenes (.zip)` : "Descargar imagen"),
+          p.tipo === "reel" ? el("button", { type: "button", onclick: () => descargar(p, aviso, [p.portada]) }, "Portada") : null,
           caja ? el("button", { type: "button", onclick: () => copiar(p.texto, aviso, caja) }, "Copiar texto") : null,
           el("label", { class: "check", for: "chk-" + p.id }, chk, "Programada")),
         aviso));
