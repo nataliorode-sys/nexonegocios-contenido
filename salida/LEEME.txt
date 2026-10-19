@@ -1,1 +1,1 @@
-Las piezas generadas no se versionan: viven en el calendario publicado. Se regeneran con npm run generar.
+Piezas terminadas por mes. Se versionan para poder bajarlas desde GitHub; las hojas de revisión (_revision/) no.
