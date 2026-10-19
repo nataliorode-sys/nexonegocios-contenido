@@ -45,6 +45,7 @@ h3 { margin: 0; font: 600 19px/1.25 var(--display); color: var(--brand); text-wr
 .prev { display: flex; gap: 8px; overflow-x: auto; scroll-snap-type: x mandatory; padding-bottom: 6px; }
 .mini { flex: 0 0 auto; display: grid; gap: 6px; justify-items: start; scroll-snap-align: start; }
 .mini img { height: 260px; }
+a.boton { font: 600 14px var(--body); border-radius: 10px; padding: 9px 14px; border: 1px solid var(--line); background: var(--surface); color: var(--fg); text-decoration: none; }
 button.chico { font-size: 12px; padding: 4px 10px; border-radius: 8px; }
 .prev img, .prev video { flex: 0 0 auto; height: 260px; width: auto; max-width: none; border-radius: 8px; scroll-snap-align: start; border: 1px solid var(--line); background: #172A33; }
 .nota { font-size: 14px; background: var(--accent-soft); color: var(--fg); padding: 10px 12px; border-radius: 10px; }
@@ -78,6 +79,7 @@ label.check { display: inline-flex; gap: 8px; align-items: center; font-size: 14
       <li>Por cada carrusel o reel de la semana: tocá <b>Descargar</b> acá, subilo, tocá <b>Copiar texto</b> y pegalo.</li>
       <li>Elegí el día y la hora que figuran en la ficha. En los reels, usá <b>portada.jpg</b> como portada y sumá música desde Instagram (volumen bajo).</li>
       <li>Las <b>historias</b> llevan sticker (encuesta o enlace): subilas desde el celular el día indicado. Te llega el aviso al calendario.</li>
+      <li>Si el botón de descarga no responde, tocá <b>Abrir en GitHub</b>: ahí está cada archivo, y al abrirlo tenés el botón de descarga (la flecha ↓ arriba a la derecha).</li>
       <li>Marcá <b>Programada</b> en cada ficha para llevar la cuenta.</li>
     </ol>
   </details>
@@ -194,6 +196,7 @@ const main = document.getElementById("semanas");
             ? el("button", { class: "prim", type: "button", onclick: () => descargar(p, aviso, [p.video]) }, "Descargar video")
             : el("button", { class: "prim", type: "button", onclick: () => p.imagenes.length > 1 ? descargarZip(p, aviso) : descargar(p, aviso, p.imagenes) }, p.imagenes.length > 1 ? `Descargar las ${p.imagenes.length} imágenes (.zip)` : "Descargar imagen"),
           p.tipo === "reel" ? el("button", { type: "button", onclick: () => descargar(p, aviso, [p.portada]) }, "Portada") : null,
+          el("a", { class: "boton", href: `https://github.com/nataliorode-sys/nexonegocios-contenido/tree/main/salida/${p.fecha.slice(0, 7)}/${p.id}`, target: "_blank", rel: "noopener" }, "Abrir en GitHub"),
           caja ? el("button", { type: "button", onclick: () => copiar(p.texto, aviso, caja) }, "Copiar texto") : null,
           el("label", { class: "check", for: "chk-" + p.id }, chk, "Programada")),
         aviso));

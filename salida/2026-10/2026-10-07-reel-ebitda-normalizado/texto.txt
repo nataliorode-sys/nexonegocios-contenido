@@ -1,0 +1,11 @@
+El EBITDA del balance casi nunca es el que se usa para valuar una PyME.
+
+Antes hay que normalizarlo: sacar los gastos personales que pasan por la empresa, los hechos extraordinarios que no se van a repetir, y sumar el costo de reemplazar las funciones que hoy cumple el dueño sin cobrar sueldo de mercado.
+
+Ese último ajuste es el que más se olvida, y el que más sorprende en una negociación.
+
+Recién sobre ese número tiene sentido hablar de múltiplos. Y después falta un paso más: deuda y caja, para pasar del valor de la empresa al valor de las acciones.
+
+Guardalo para la próxima vez que alguien te diga “tu empresa vale X veces lo que gana”.
+
+#EBITDA #ValuacionDeEmpresas #PyMEs #Finanzas #NexoNegocios
