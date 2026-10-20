@@ -1,9 +1,9 @@
-// Plantillas fijas de carrusel (1080x1350) e historia (1080x1920).
+// Plantillas fijas de carrusel (1080x1440, formato 3:4 de la cuadrícula de Instagram) e historia (1080x1920).
 import { color, cssBase, logo, firma, md, fondos, temas } from "./marca.mjs";
 
 const css = `
 ${cssBase}
-.lienzo { position: relative; overflow: hidden; display: flex; flex-direction: column; padding: 96px 92px 0; }
+.lienzo { position: relative; overflow: hidden; display: flex; flex-direction: column; padding: 110px 100px 0; }
 .lienzo.oscuro { background: ${color.marino}; color: #fff; }
 .lienzo.claro { background: ${color.papel}; }
 .lienzo.f-blanco { background: ${fondos.blanco}; }
@@ -15,7 +15,7 @@ ${cssBase}
 .story .isotipo { bottom: 330px; height: 700px; }
 .kicker { display: inline-flex; align-items: center; gap: 14px; font-weight: 800; font-size: 26px; letter-spacing: .16em; text-transform: uppercase; color: ${color.verde}; }
 .kicker::before { content: ""; width: 44px; height: 4px; background: ${color.verde}; }
-.pie { position: absolute; left: 92px; right: 92px; bottom: 64px; display: flex; align-items: center; justify-content: space-between; font-size: 24px; color: ${color.gris}; }
+.pie { position: absolute; left: 100px; right: 100px; bottom: 72px; display: flex; align-items: center; justify-content: space-between; font-size: 24px; color: ${color.gris}; }
 .oscuro .pie { color: rgba(255,255,255,.62); }
 .pie img { height: 54px; }
 .pie .num { font-weight: 600; letter-spacing: .08em; }

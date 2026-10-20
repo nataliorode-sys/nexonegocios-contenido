@@ -74,7 +74,7 @@ for (const p of piezas) {
   fs.mkdirSync(dir, { recursive: true });
   const t0 = Date.now();
   let extra = "";
-  if (p.tipo === "carrusel") await estatica(p, 1080, 1350, dir);
+  if (p.tipo === "carrusel") await estatica(p, 1080, 1440, dir);
   else if (p.tipo === "historia") await estatica(p, 1080, 1920, dir);
   else if (p.tipo === "reel") extra = ` (${(await reel(p, dir)).toFixed(1)} s)`;
   else throw new Error(`Tipo desconocido: ${p.tipo}`);

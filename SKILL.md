@@ -55,7 +55,7 @@ Una vez por mes, el reel del viernes de la semana 3 es una **empresa en venta** 
 
 ## 5. Cómo se escribe cada formato
 
-**Carrusel (1080×1350):** portada con promesa concreta → desarrollo (un concepto por slide) → slide «clave» con la idea en una frase → cierre con resumen y firma. Siempre 6 a 8 slides.
+**Carrusel (1080×1440, formato 3:4: así se ve completo también en la cuadrícula del perfil):** portada con promesa concreta → desarrollo (un concepto por slide) → slide «clave» con la idea en una frase → cierre con resumen y firma. Siempre 6 a 8 slides.
 
 **Reel (1080×1920, sin voz):** gancho que contradice una creencia o muestra un número (máx. 15 palabras) → 3-4 escenas de desarrollo → cierre. Texto grande, pocas palabras por escena. La música se agrega en Instagram.
 
