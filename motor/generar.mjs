@@ -2,7 +2,7 @@
 // Uso: node motor/generar.mjs 2026-10 [id-de-pieza]
 import fs from "node:fs";
 import path from "node:path";
-import { spawn } from "node:child_process";
+import { spawn, execFileSync } from "node:child_process";
 import { chromium } from "playwright";
 import { RAIZ, rotacion } from "./marca.mjs";
 import { htmlEstatico } from "./plantillas.mjs";
@@ -61,6 +61,16 @@ async function reel(p, dir) {
   }
   ff.stdin.end();
   await new Promise((r, x) => ff.on("close", (c) => (c === 0 ? r() : x(new Error(`ffmpeg ${c}`)))));
+  // Música de fondo original (motor/musica.py), una de tres variantes según la pieza
+  if (p.musica_fondo !== false) {
+    const wav = path.join(tmp, `${p.id}.wav`), conAudio = path.join(tmp, `${p.id}.mp4`);
+    const variante = [...p.id].reduce((a, c) => a + c.charCodeAt(0), 0) % 3;
+    execFileSync("python3", ["-I", path.join(RAIZ, "motor", "musica.py"), String(total), String(variante), wav]);
+    execFileSync("ffmpeg", ["-y", "-loglevel", "error", "-i", salida, "-i", wav, "-map", "0:v", "-map", "1:a",
+      "-c:v", "copy", "-c:a", "aac", "-b:a", "160k", "-shortest", "-movflags", "+faststart", conAudio]);
+    fs.renameSync(conAudio, salida);
+    fs.rmSync(wav);
+  }
   // portada: primera escena con todo visible
   await page.evaluate((t) => window.__t(t), tiempos[0].dur - 0.05);
   await page.screenshot({ path: path.join(dir, "portada.jpg"), type: "jpeg", quality: 92 });
