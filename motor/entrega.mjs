@@ -19,7 +19,9 @@ for (const m of meses) for (const f of fs.readdirSync(path.join(RAIZ, "contenido
   const texto = p.caption ? [p.caption, "", (p.hashtags || []).join(" ")].join("\n").trim() : "";
   piezas.push({
     id: p.id, tipo: p.tipo, fecha: p.fecha, hora: p.hora, pilar: p.pilar, titulo: p.titulo_interno,
-    nota: [p.nota_publicacion, p.musica ? `Música: ${p.musica}` : ""].filter(Boolean).join(" "),
+    nota: p.tipo === "reel" && p.musica_fondo !== false
+      ? "Subir como Reel (9:16). Usar portada.jpg como portada. Ya trae música de fondo: no hace falta agregar audio."
+      : [p.nota_publicacion, p.musica ? `Música: ${p.musica}` : ""].filter(Boolean).join(" "),
     texto,
     imagenes: propios.filter((a) => a.endsWith(".png")),
     video: propios.find((a) => a.endsWith(".mp4")),
