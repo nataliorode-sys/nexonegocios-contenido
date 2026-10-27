@@ -1,0 +1,77 @@
+{
+  "id": "2026-11-11-reel-earn-out",
+  "tipo": "reel",
+  "fecha": "2026-11-11",
+  "hora": "12:30",
+  "pilar": "Proceso",
+  "titulo_interno": "Earn-out explicado con un ejemplo",
+  "caption": "Cuando comprador y vendedor no se ponen de acuerdo en el precio, a veces la diferencia se resuelve con un earn-out.\n\nUna parte del precio se paga al cierre y otra depende de que la empresa alcance ciertos resultados en los años siguientes. Si los alcanza, el vendedor cobra más.\n\nFunciona cuando las dos partes creen distinto sobre el futuro. Pero exige dejar escrito con mucho detalle cómo se mide la meta y quién toma las decisiones mientras tanto.\n\nLos números del video son un ejemplo ilustrativo.\n\n¿Aceptarías cobrar parte de tu empresa en función de resultados?",
+  "hashtags": [
+    "#EarnOut",
+    "#VentaDeEmpresas",
+    "#CompraDeEmpresas",
+    "#PyMEs",
+    "#NexoNegocios"
+  ],
+  "nota_publicacion": "Subir como Reel (9:16). Usar portada.jpg como portada. Ya trae música de fondo.",
+  "escenas": [
+    {
+      "layout": "gancho",
+      "kicker": "Compraventa de empresas",
+      "texto": "Cuando no se ponen de acuerdo en el precio, **existe el earn-out.**"
+    },
+    {
+      "layout": "texto",
+      "titulo": "Qué es",
+      "lineas": [
+        "Una parte del precio se paga al cierre.",
+        "Otra depende de que la empresa **alcance ciertos resultados** en los años siguientes."
+      ]
+    },
+    {
+      "layout": "tabla",
+      "kicker": "Ejemplo ilustrativo",
+      "titulo": "Cómo puede quedar",
+      "filas": [
+        [
+          "Pago al cierre",
+          "$400 M"
+        ],
+        [
+          "Si se cumple la meta del año 1",
+          "+$60 M",
+          "mas"
+        ],
+        [
+          "Si se cumple la meta del año 2",
+          "+$60 M",
+          "mas"
+        ],
+        [
+          "Precio máximo",
+          "$520 M",
+          "total"
+        ]
+      ]
+    },
+    {
+      "layout": "lista",
+      "titulo": "Lo que hay que dejar escrito",
+      "items": [
+        {
+          "t": "Cómo se mide la meta"
+        },
+        {
+          "t": "Quién decide mientras tanto"
+        },
+        {
+          "t": "Qué pasa si cambian las condiciones"
+        }
+      ]
+    },
+    {
+      "layout": "cierre",
+      "texto": "Funciona cuando las dos partes creen distinto sobre el futuro."
+    }
+  ]
+}

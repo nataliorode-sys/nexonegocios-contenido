@@ -1,0 +1,59 @@
+{
+  "id": "2026-11-24-carrusel-4-razones",
+  "tipo": "carrusel",
+  "fecha": "2026-11-24",
+  "hora": "09:00",
+  "pilar": "Errores y mitos",
+  "titulo_interno": "Las 4 razones por las que se caen las operaciones",
+  "caption": "Hay operaciones que parecen cerradas y se caen. En las que acompañamos, las razones suelen repetirse.\n\n1. Un precio que no se puede defender con números\n2. Información que no coincide cuando el comprador la revisa\n3. Sorpresas que aparecen tarde: juicios, deudas, contratos\n4. Falta de acuerdo entre socios o familiares que venden\n\nLo común entre las cuatro: se podían resolver antes de salir a vender. Es el trabajo que más se agradece después.\n\nCompartilo con tu socio y revisen juntos cuál de las cuatro les toca más de cerca.",
+  "hashtags": [
+    "#VentaDeEmpresas",
+    "#PyMEs",
+    "#EmpresasFamiliares",
+    "#DueDiligence",
+    "#NexoNegocios"
+  ],
+  "nota_publicacion": "Publicar como carrusel (7 imágenes, en orden). El lunes 23 es feriado: se publica el martes 24.",
+  "slides": [
+    {
+      "layout": "portada",
+      "kicker": "Errores frecuentes",
+      "titulo": "Las 4 razones por las que\n==se caen las ventas de empresas.==",
+      "bajada": "Las cuatro se pueden resolver antes de salir a vender."
+    },
+    {
+      "layout": "texto",
+      "paso": "01",
+      "titulo": "Un precio indefendible",
+      "cuerpo": "Cuando el número no se puede sostener con datos, el comprador deja de negociar.\n\nLa valuación tiene que **resistir preguntas**."
+    },
+    {
+      "layout": "texto",
+      "paso": "02",
+      "titulo": "Información que no coincide",
+      "cuerpo": "Lo que se dijo en la reunión no cierra con lo que muestran los papeles.\n\nA partir de ahí, **todo se pone en duda**."
+    },
+    {
+      "layout": "texto",
+      "paso": "03",
+      "titulo": "Sorpresas tardías",
+      "cuerpo": "Un juicio, una deuda o un contrato que aparece en la due diligence.\n\nLo que se cuenta tarde **se descuenta** del precio o rompe la confianza."
+    },
+    {
+      "layout": "texto",
+      "paso": "04",
+      "titulo": "Socios que no están alineados",
+      "cuerpo": "Familiares o socios que no comparten el objetivo o el precio.\n\nEl comprador no quiere quedar **en el medio** de una discusión."
+    },
+    {
+      "layout": "clave",
+      "texto": "Ninguna de las cuatro aparece de golpe.\n**Todas se podían ver antes.**"
+    },
+    {
+      "layout": "cierre",
+      "titulo": "Revisá cuál de las cuatro te toca más de cerca.",
+      "cuerpo": "Es el trabajo que más se agradece después.",
+      "cta": "Compartilo con tu socio"
+    }
+  ]
+}

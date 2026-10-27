@@ -1,0 +1,54 @@
+{
+  "id": "2026-11-18-reel-valuar-para-que",
+  "tipo": "reel",
+  "fecha": "2026-11-18",
+  "hora": "12:30",
+  "pilar": "Valor",
+  "titulo_interno": "Valuar para vender, para sumar un socio o para una sucesión",
+  "caption": "Una misma empresa puede tener valores distintos según para qué se la valúe.\n\nVender el 100% a un tercero, incorporar un socio o repartir la empresa entre los hijos son tres situaciones diferentes. Cambian quién compra, qué porcentaje se transmite y qué derechos tiene cada parte.\n\nEl método de cálculo puede ser parecido. Lo que cambia son los supuestos, y por eso el resultado.\n\nAntes de pedir una valuación, conviene tener claro para qué la necesitás.\n\n¿Para cuál de las tres estás pensando la tuya?",
+  "hashtags": [
+    "#ValuacionDeEmpresas",
+    "#EmpresasFamiliares",
+    "#Sucesion",
+    "#PyMEs",
+    "#NexoNegocios"
+  ],
+  "nota_publicacion": "Subir como Reel (9:16). Usar portada.jpg como portada. Ya trae música de fondo.",
+  "escenas": [
+    {
+      "layout": "gancho",
+      "kicker": "Valuación",
+      "texto": "La misma empresa puede tener **tres valores distintos.**"
+    },
+    {
+      "layout": "lista",
+      "titulo": "Depende de para qué",
+      "items": [
+        {
+          "t": "Vender el 100%",
+          "d": "A un tercero, con control total."
+        },
+        {
+          "t": "Sumar un socio",
+          "d": "Una parte, con derechos compartidos."
+        },
+        {
+          "t": "Sucesión",
+          "d": "Repartir entre la familia."
+        }
+      ]
+    },
+    {
+      "layout": "texto",
+      "titulo": "El método puede ser parecido.",
+      "lineas": [
+        "Lo que cambia son **los supuestos**.",
+        "Y por eso, el resultado."
+      ]
+    },
+    {
+      "layout": "cierre",
+      "texto": "Antes de pedir una valuación, definí para qué la necesitás."
+    }
+  ]
+}

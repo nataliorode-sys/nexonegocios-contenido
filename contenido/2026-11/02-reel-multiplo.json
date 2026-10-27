@@ -1,0 +1,74 @@
+{
+  "id": "2026-11-04-reel-multiplo",
+  "tipo": "reel",
+  "fecha": "2026-11-04",
+  "hora": "12:30",
+  "pilar": "Valor",
+  "titulo_interno": "Qué es un múltiplo y por qué no se aplica igual a todas las empresas",
+  "caption": "Un múltiplo no es un número mágico que se aplica igual a todas las empresas.\n\nEs la cantidad de veces que un comprador está dispuesto a pagar el EBITDA normalizado. Y ese número cambia según qué tan recurrentes son las ventas, qué tan repartidos están los clientes y cuánto depende el negocio de su dueño.\n\nPor eso dos empresas con el mismo resultado pueden terminar con valores muy distintos. El ejemplo del video es ilustrativo, para mostrar la mecánica.\n\nGuardalo para la próxima vez que alguien te diga “tu rubro se vende a X veces”.",
+  "hashtags": [
+    "#Multiplos",
+    "#EBITDA",
+    "#ValuacionDeEmpresas",
+    "#PyMEs",
+    "#NexoNegocios"
+  ],
+  "nota_publicacion": "Subir como Reel (9:16). Usar portada.jpg como portada. Ya trae música de fondo.",
+  "escenas": [
+    {
+      "layout": "gancho",
+      "kicker": "Valuación",
+      "texto": "«Tu rubro se vende a 4 veces.» **No funciona así.**"
+    },
+    {
+      "layout": "texto",
+      "titulo": "Qué es un múltiplo",
+      "lineas": [
+        "Cuántas veces el comprador paga el **EBITDA normalizado**.",
+        "Y ese número cambia de empresa a empresa."
+      ]
+    },
+    {
+      "layout": "lista",
+      "titulo": "Lo que lo sube o lo baja",
+      "items": [
+        {
+          "t": "Ventas recurrentes",
+          "d": "Contratos y clientes que vuelven."
+        },
+        {
+          "t": "Clientes repartidos",
+          "d": "Ninguno pesa demasiado."
+        },
+        {
+          "t": "Independencia del dueño",
+          "d": "La empresa funciona sin vos."
+        }
+      ]
+    },
+    {
+      "layout": "tabla",
+      "kicker": "Ejemplo ilustrativo",
+      "titulo": "Mismo EBITDA, distinto valor",
+      "filas": [
+        [
+          "EBITDA normalizado",
+          "$100 M"
+        ],
+        [
+          "Empresa A · × 3",
+          "$300 M"
+        ],
+        [
+          "Empresa B · × 5",
+          "$500 M",
+          "mas"
+        ]
+      ]
+    },
+    {
+      "layout": "cierre",
+      "texto": "El múltiplo no se elige. Se gana."
+    }
+  ]
+}

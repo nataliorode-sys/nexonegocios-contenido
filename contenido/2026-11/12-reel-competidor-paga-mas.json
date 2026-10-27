@@ -1,0 +1,67 @@
+{
+  "id": "2026-11-20-reel-competidor-paga-mas",
+  "tipo": "reel",
+  "fecha": "2026-11-20",
+  "hora": "12:30",
+  "pilar": "Mercado",
+  "titulo_interno": "Por qué un competidor puede pagar más que un inversor financiero",
+  "caption": "El comprador que más paga no siempre es el que tiene más plata. Muchas veces es el que más gana con tu empresa.\n\nUn inversor financiero valúa lo que la empresa genera tal como está. Un competidor o un jugador del mismo rubro suma otra cosa: ahorra costos que ya tiene cubiertos, accede a tus clientes o completa su oferta. A eso se le llama sinergias.\n\nPor eso tiene sentido preguntarse, antes de salir a vender, quiénes podrían ver en tu empresa algo que otros no ven.\n\nEl ejemplo del video es ilustrativo.\n\n¿Quién creés que ganaría más comprando la tuya?",
+  "hashtags": [
+    "#CompraDeEmpresas",
+    "#Sinergias",
+    "#VentaDeEmpresas",
+    "#PyMEs",
+    "#NexoNegocios"
+  ],
+  "nota_publicacion": "Subir como Reel (9:16). Usar portada.jpg como portada. Ya trae música de fondo. Si tenés una empresa en venta para mostrar, avisá y este reel se reemplaza.",
+  "escenas": [
+    {
+      "layout": "gancho",
+      "kicker": "Compradores",
+      "texto": "El que más paga **no es el que tiene más plata.**"
+    },
+    {
+      "layout": "comparacion",
+      "titulo": "Dos compradores",
+      "izq": {
+        "titulo": "Inversor financiero",
+        "texto": "Valúa lo que la empresa genera **tal como está**."
+      },
+      "der": {
+        "titulo": "Competidor",
+        "texto": "Suma lo que él gana: costos que ya cubre, tus clientes, su oferta completa."
+      }
+    },
+    {
+      "layout": "tabla",
+      "kicker": "Ejemplo ilustrativo",
+      "titulo": "Cuánto puede ofrecer cada uno",
+      "filas": [
+        [
+          "EBITDA de tu empresa",
+          "$100 M"
+        ],
+        [
+          "Inversor · × 4",
+          "$400 M"
+        ],
+        [
+          "Competidor · con sinergias",
+          "$480 M",
+          "mas"
+        ]
+      ]
+    },
+    {
+      "layout": "texto",
+      "titulo": "A eso se le llama sinergias.",
+      "lineas": [
+        "Antes de vender, preguntate **quién ve en tu empresa algo que otros no ven**."
+      ]
+    },
+    {
+      "layout": "cierre",
+      "texto": "Encontrar al comprador correcto también es parte del precio."
+    }
+  ]
+}

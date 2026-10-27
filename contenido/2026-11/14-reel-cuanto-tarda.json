@@ -1,0 +1,58 @@
+{
+  "id": "2026-11-25-reel-cuanto-tarda",
+  "tipo": "reel",
+  "fecha": "2026-11-25",
+  "hora": "12:30",
+  "pilar": "Proceso",
+  "titulo_interno": "Cuánto tarda vender una empresa y de qué depende",
+  "caption": "La pregunta que más nos hacen: ¿cuánto tarda vender una empresa?\n\nNo hay un plazo único. Hay etapas, y cada una depende de cosas que el dueño puede controlar: qué tan ordenada está la información, si el precio es defendible, si los socios están alineados y cuán rápido se responden las consultas del comprador.\n\nTambién cuenta con quién se negocia. Unos pocos interesados serios hacen avanzar más que una lista larga de curiosos.\n\nLa mejor forma de acortar el proceso es empezar a prepararlo antes de necesitarlo.\n\nGuardalo si estás pensando en vender.",
+  "hashtags": [
+    "#VentaDeEmpresas",
+    "#ProcesoDeVenta",
+    "#PyMEs",
+    "#EmpresasFamiliares",
+    "#NexoNegocios"
+  ],
+  "nota_publicacion": "Subir como Reel (9:16). Usar portada.jpg como portada. Ya trae música de fondo.",
+  "escenas": [
+    {
+      "layout": "gancho",
+      "kicker": "Venta de empresas",
+      "texto": "¿Cuánto tarda vender una empresa? **Depende de vos más de lo que creés.**"
+    },
+    {
+      "layout": "lista",
+      "titulo": "Lo que acelera el proceso",
+      "items": [
+        {
+          "t": "Información ordenada"
+        },
+        {
+          "t": "Un precio defendible"
+        },
+        {
+          "t": "Socios alineados"
+        },
+        {
+          "t": "Respuestas rápidas al comprador"
+        }
+      ]
+    },
+    {
+      "layout": "comparacion",
+      "titulo": "Con quién se negocia",
+      "izq": {
+        "titulo": "Lista larga",
+        "texto": "Muchos curiosos, poco avance."
+      },
+      "der": {
+        "titulo": "Pocos interesados serios",
+        "texto": "Menos reuniones, **más avance**."
+      }
+    },
+    {
+      "layout": "cierre",
+      "texto": "La mejor forma de acortarlo: prepararlo antes de necesitarlo."
+    }
+  ]
+}

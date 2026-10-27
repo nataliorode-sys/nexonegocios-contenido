@@ -1,0 +1,76 @@
+{
+  "id": "2026-11-02-carrusel-sobreestima",
+  "tipo": "carrusel",
+  "fecha": "2026-11-02",
+  "hora": "09:00",
+  "pilar": "Valor",
+  "titulo_interno": "Por qué el dueño casi siempre sobreestima su empresa",
+  "caption": "Casi todos los dueños que conocemos creen que su empresa vale más de lo que un comprador va a pagar. Y no es soberbia.\n\nEs que la miran desde adentro: ven los años de esfuerzo, el mejor ejercicio y lo que invirtieron. El comprador mira otra cosa: cuánto genera la empresa cuando el dueño ya no está, y cuánto de eso puede demostrarse.\n\nPor eso, antes de fijar un precio, conviene hacerse tres preguntas: cuánto genera sin mí, cuánto de eso se repite y qué puedo demostrar con papeles.\n\n¿Alguna vez calculaste tu número poniéndote del lado del comprador?",
+  "hashtags": [
+    "#ValuacionDeEmpresas",
+    "#PyMEs",
+    "#VentaDeEmpresas",
+    "#EmpresasFamiliares",
+    "#NexoNegocios"
+  ],
+  "nota_publicacion": "Publicar como carrusel (7 imágenes, en orden).",
+  "slides": [
+    {
+      "layout": "portada",
+      "kicker": "Valuación de empresas",
+      "titulo": "Por qué casi todos los dueños\n==sobreestiman su empresa.==",
+      "bajada": "Y por qué no tiene nada que ver con la soberbia."
+    },
+    {
+      "layout": "comparacion",
+      "kicker": "Dos miradas",
+      "titulo": "El dueño vs. el comprador",
+      "izq": {
+        "titulo": "El dueño ve",
+        "items": [
+          "Los años de esfuerzo",
+          "El mejor año de ventas",
+          "Lo que invirtió",
+          "Lo que podría crecer"
+        ]
+      },
+      "der": {
+        "titulo": "El comprador ve",
+        "items": [
+          "Lo que genera sin el dueño",
+          "Lo que se repite año a año",
+          "Lo que puede demostrarse",
+          "Lo que puede salir mal"
+        ]
+      }
+    },
+    {
+      "layout": "texto",
+      "paso": "01",
+      "titulo": "¿Cuánto genera sin mí?",
+      "cuerpo": "Si el negocio depende de tu presencia, el comprador descuenta el costo de reemplazarte.\n\nEse ajuste suele ser el que más distancia pone entre las dos cifras."
+    },
+    {
+      "layout": "texto",
+      "paso": "02",
+      "titulo": "¿Cuánto de eso se repite?",
+      "cuerpo": "Un año extraordinario no es la base del precio.\n\nEl comprador busca el resultado **sostenible**: lo que la empresa gana en un año normal."
+    },
+    {
+      "layout": "texto",
+      "paso": "03",
+      "titulo": "¿Qué puedo demostrar?",
+      "cuerpo": "Lo que no está en los papeles, para el comprador no existe.\n\nCada ingreso informal o gasto sin respaldo resta credibilidad al resto de los números."
+    },
+    {
+      "layout": "clave",
+      "texto": "El valor de tu empresa no es el que sentís.\nEs el que **un comprador puede verificar.**"
+    },
+    {
+      "layout": "cierre",
+      "titulo": "Antes de fijar un precio, mirá tu empresa desde el otro lado de la mesa.",
+      "cuerpo": "Tres preguntas: cuánto genera sin vos, cuánto se repite y qué podés demostrar.",
+      "cta": "Guardalo para cuando lo necesites"
+    }
+  ]
+}

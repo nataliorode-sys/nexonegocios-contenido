@@ -62,7 +62,7 @@ async function reel(p, dir) {
   ff.stdin.end();
   await new Promise((r, x) => ff.on("close", (c) => (c === 0 ? r() : x(new Error(`ffmpeg ${c}`)))));
   // Música de fondo original (motor/musica.py), una de tres variantes según la pieza
-  if (p.musica_fondo !== false) {
+  if (p.musica_fondo === true) {
     const wav = path.join(tmp, `${p.id}.wav`), conAudio = path.join(tmp, `${p.id}.mp4`);
     const variante = [...p.id].reduce((a, c) => a + c.charCodeAt(0), 0) % 3;
     execFileSync("python3", ["-I", path.join(RAIZ, "motor", "musica.py"), String(total), String(variante), wav]);

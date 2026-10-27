@@ -1,0 +1,63 @@
+{
+  "id": "2026-11-06-reel-mito-nadie-compra",
+  "tipo": "reel",
+  "fecha": "2026-11-06",
+  "hora": "12:30",
+  "pilar": "Errores y mitos",
+  "titulo_interno": "Mito: nadie va a querer comprar mi empresa",
+  "caption": "“Mi empresa es muy chica, nadie la va a querer comprar.” Lo escuchamos seguido, y casi siempre es un mito.\n\nPara un comprador, una empresa en marcha vale por lo que le ahorra: clientes que ya compran, un equipo formado y años de habilitaciones y aprendizaje. Eso no depende del tamaño.\n\nLo que sí complica una venta es que el negocio dependa de una sola persona o que los números no se puedan mostrar con claridad. Y las dos cosas se trabajan antes de salir.\n\n¿Vos qué creés que le falta a tu empresa para estar lista?",
+  "hashtags": [
+    "#VentaDeEmpresas",
+    "#PyMEs",
+    "#CompraDeEmpresas",
+    "#EmpresasFamiliares",
+    "#NexoNegocios"
+  ],
+  "nota_publicacion": "Subir como Reel (9:16). Usar portada.jpg como portada. Ya trae música de fondo.",
+  "escenas": [
+    {
+      "layout": "gancho",
+      "kicker": "Mito",
+      "texto": "«Mi empresa es muy chica. **Nadie la va a querer comprar.**»"
+    },
+    {
+      "layout": "texto",
+      "titulo": "Casi siempre es un mito.",
+      "lineas": [
+        "Una empresa en marcha vale por **lo que le ahorra** al comprador.",
+        "Y eso no depende del tamaño."
+      ]
+    },
+    {
+      "layout": "lista",
+      "titulo": "Lo que compra un comprador",
+      "items": [
+        {
+          "t": "Clientes que ya compran"
+        },
+        {
+          "t": "Un equipo formado"
+        },
+        {
+          "t": "Habilitaciones y años de aprendizaje"
+        }
+      ]
+    },
+    {
+      "layout": "comparacion",
+      "titulo": "Lo que sí complica una venta",
+      "izq": {
+        "titulo": "Problema",
+        "texto": "Que todo dependa de una sola persona."
+      },
+      "der": {
+        "titulo": "Problema",
+        "texto": "Que los números **no se puedan mostrar** con claridad."
+      }
+    },
+    {
+      "layout": "cierre",
+      "texto": "Las dos cosas se trabajan antes de salir a vender."
+    }
+  ]
+}

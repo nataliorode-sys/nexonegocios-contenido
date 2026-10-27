@@ -1,0 +1,62 @@
+{
+  "id": "2026-11-13-reel-proyecciones",
+  "tipo": "reel",
+  "fecha": "2026-11-13",
+  "hora": "12:30",
+  "pilar": "Valor",
+  "titulo_interno": "Proyecciones: el comprador no paga tu plan de negocios",
+  "caption": "Muchos dueños llegan a la negociación con un plan de negocios ambicioso y esperan que el comprador lo pague.\n\nPero el crecimiento futuro lo va a lograr el comprador, con su capital y su trabajo. Lo que paga es lo que la empresa ya demostró.\n\nLas proyecciones sirven cuando tienen respaldo concreto: contratos firmados, pedidos en cartera, capacidad instalada sin usar. Ahí sí ayudan a sostener el precio.\n\nSin respaldo, el plan es una promesa. Y las promesas se descuentan.\n\nGuardalo para antes de armar tu presentación.",
+  "hashtags": [
+    "#ValuacionDeEmpresas",
+    "#PlanDeNegocios",
+    "#VentaDeEmpresas",
+    "#PyMEs",
+    "#NexoNegocios"
+  ],
+  "nota_publicacion": "Subir como Reel (9:16). Usar portada.jpg como portada. Ya trae música de fondo.",
+  "escenas": [
+    {
+      "layout": "gancho",
+      "kicker": "Valuación",
+      "texto": "El comprador **no paga tu plan de negocios.**"
+    },
+    {
+      "layout": "texto",
+      "titulo": "Paga lo que la empresa ya demostró.",
+      "lineas": [
+        "El crecimiento futuro lo va a lograr él, con **su capital y su trabajo**."
+      ]
+    },
+    {
+      "layout": "lista",
+      "titulo": "Cuándo sí suman las proyecciones",
+      "items": [
+        {
+          "t": "Contratos firmados"
+        },
+        {
+          "t": "Pedidos en cartera"
+        },
+        {
+          "t": "Capacidad instalada sin usar"
+        }
+      ]
+    },
+    {
+      "layout": "comparacion",
+      "titulo": "La diferencia",
+      "izq": {
+        "titulo": "Sin respaldo",
+        "texto": "Una promesa. Y las promesas **se descuentan**."
+      },
+      "der": {
+        "titulo": "Con respaldo",
+        "texto": "Un argumento que ayuda a **sostener el precio**."
+      }
+    },
+    {
+      "layout": "cierre",
+      "texto": "Revisá tus proyecciones antes de armar la presentación."
+    }
+  ]
+}

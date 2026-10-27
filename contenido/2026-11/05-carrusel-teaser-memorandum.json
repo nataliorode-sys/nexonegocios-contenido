@@ -1,0 +1,93 @@
+{
+  "id": "2026-11-09-carrusel-teaser-memorandum",
+  "tipo": "carrusel",
+  "fecha": "2026-11-09",
+  "hora": "09:00",
+  "pilar": "Proceso",
+  "titulo_interno": "Teaser y memorándum: qué se muestra en cada etapa",
+  "caption": "Vender una empresa no empieza mostrando los números. Empieza con una ficha anónima de una página: el teaser.\n\nSi hay interés, el comprador firma un NDA y recién ahí recibe el memorándum, el documento completo con la historia, los clientes, el equipo y los resultados normalizados.\n\nLa idea es simple: cada etapa muestra lo justo para decidir si se avanza a la siguiente. Así se cuida la confidencialidad y se llega a la mesa de negociación con compradores que ya saben qué están comprando.\n\n¿Sabías para qué sirve cada documento antes de leer esto?",
+  "hashtags": [
+    "#VentaDeEmpresas",
+    "#NDA",
+    "#Confidencialidad",
+    "#PyMEs",
+    "#NexoNegocios"
+  ],
+  "nota_publicacion": "Publicar como carrusel (8 imágenes, en orden).",
+  "slides": [
+    {
+      "layout": "portada",
+      "kicker": "Venta de empresas",
+      "titulo": "Teaser y memorándum:\n==qué se muestra y cuándo.==",
+      "bajada": "Cada etapa muestra lo justo para decidir si se avanza."
+    },
+    {
+      "layout": "lista",
+      "kicker": "El orden",
+      "titulo": "Tres pasos antes de negociar",
+      "items": [
+        {
+          "t": "Teaser",
+          "d": "Una ficha anónima de una página."
+        },
+        {
+          "t": "NDA",
+          "d": "El acuerdo de confidencialidad."
+        },
+        {
+          "t": "Memorándum",
+          "d": "El documento completo de la empresa."
+        }
+      ]
+    },
+    {
+      "layout": "texto",
+      "paso": "01",
+      "titulo": "El teaser",
+      "cuerpo": "Rubro, zona, tamaño y lo que hace atractiva a la empresa. **Sin nombre** y sin datos que la identifiquen.\n\nSirve para medir interés sin exponer nada."
+    },
+    {
+      "layout": "texto",
+      "paso": "02",
+      "titulo": "El NDA",
+      "cuerpo": "Si el interesado califica, firma un acuerdo de confidencialidad.\n\nSe compromete a **no usar ni divulgar** lo que va a ver."
+    },
+    {
+      "layout": "texto",
+      "paso": "03",
+      "titulo": "El memorándum",
+      "cuerpo": "Historia, clientes, equipo, operación y **resultados normalizados**.\n\nEs el documento con el que el comprador decide si hace una oferta."
+    },
+    {
+      "layout": "comparacion",
+      "kicker": "Por qué en ese orden",
+      "titulo": "Sin proceso vs. con proceso",
+      "izq": {
+        "titulo": "Sin proceso",
+        "items": [
+          "Los números circulan sin control",
+          "Curiosos y competidores miran",
+          "Se negocia con cualquiera"
+        ]
+      },
+      "der": {
+        "titulo": "Con proceso",
+        "items": [
+          "Cada dato tiene su momento",
+          "Solo avanzan los que califican",
+          "Se negocia con quien sabe qué compra"
+        ]
+      }
+    },
+    {
+      "layout": "clave",
+      "texto": "La confidencialidad no es un detalle.\n**Es parte del valor.**"
+    },
+    {
+      "layout": "cierre",
+      "titulo": "Antes de mostrar un número, definí a quién y en qué etapa.",
+      "cuerpo": "Así se cuida la empresa y se llega a la mesa con compradores serios.",
+      "cta": "Guardalo si estás pensando en vender"
+    }
+  ]
+}

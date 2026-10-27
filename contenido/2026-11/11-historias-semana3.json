@@ -1,0 +1,25 @@
+{
+  "id": "2026-11-19-historia-historias-semana3",
+  "tipo": "historia",
+  "fecha": "2026-11-19",
+  "hora": "10:00",
+  "pilar": "Valor",
+  "titulo_interno": "Encuesta: ¿para qué valuarías tu empresa?",
+  "caption": "",
+  "hashtags": [],
+  "nota_publicacion": "Historia 1: agregá el sticker de ENCUESTA con las opciones «Vender» / «Sumar socio o sucesión». Historia 2: agregá el sticker de ENLACE o compartí el reel del miércoles.",
+  "slides": [
+    {
+      "layout": "encuesta",
+      "kicker": "Pregunta para dueños",
+      "titulo": "Si hoy valuaras tu empresa, ¿para qué sería?",
+      "cuerpo": "Respondé y te contamos qué cambia en cada caso."
+    },
+    {
+      "layout": "teaser",
+      "kicker": "Esta semana",
+      "titulo": "Una misma empresa, **tres valores distintos.**",
+      "cuerpo": "Lo explicamos en el reel del miércoles 👇"
+    }
+  ]
+}

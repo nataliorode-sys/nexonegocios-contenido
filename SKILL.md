@@ -57,7 +57,7 @@ Una vez por mes, el reel del viernes de la semana 3 es una **empresa en venta** 
 
 **Carrusel (1080×1440, formato 3:4: así se ve completo también en la cuadrícula del perfil):** portada con promesa concreta → desarrollo (un concepto por slide) → slide «clave» con la idea en una frase → cierre con resumen y firma. Siempre 6 a 8 slides.
 
-**Reel (1080×1920, 9:16, sin voz):** lleva música de fondo original generada por `motor/musica.py` (tres variantes, sin derechos de terceros), porque desde Business Suite no se puede agregar música de Instagram. `"musica_fondo": false` en la pieza la desactiva. gancho que contradice una creencia o muestra un número (máx. 15 palabras) → 3-4 escenas de desarrollo → cierre. Texto grande, pocas palabras por escena. 
+**Reel (1080×1920, 9:16, sin voz):** sale sin música (decisión de Natalio). `motor/musica.py` puede agregar un fondo instrumental propio si en algún momento se pide: `"musica_fondo": true` en la pieza. gancho que contradice una creencia o muestra un número (máx. 15 palabras) → 3-4 escenas de desarrollo → cierre. Texto grande, pocas palabras por escena. 
 
 **Historias:** 1) encuesta o pregunta (se deja espacio vacío para el sticker), 2) dato breve que lleva al post de la semana.
 

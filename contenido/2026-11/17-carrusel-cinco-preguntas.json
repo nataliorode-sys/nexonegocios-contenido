@@ -1,0 +1,65 @@
+{
+  "id": "2026-11-30-carrusel-cinco-preguntas",
+  "tipo": "carrusel",
+  "fecha": "2026-11-30",
+  "hora": "09:00",
+  "pilar": "Mercado",
+  "titulo_interno": "Las 5 preguntas que siempre aparecen: qué buscan los compradores",
+  "caption": "Cuando un comprador analiza una PyME, las preguntas se repiten casi siempre.\n\n1. ¿Por qué vendés?\n2. ¿Qué pasa si vos no estás?\n3. ¿De dónde vienen las ventas?\n4. ¿Cuánto genera de verdad?\n5. ¿Qué puede salir mal?\n\nDetrás de las cinco hay una sola duda: si puede confiar en los números. Quien llega con las respuestas ordenadas y respaldadas negocia desde otro lugar.\n\nSi querés saber cómo te vería hoy un comprador, escribinos por mensaje directo. La conversación es confidencial.",
+  "hashtags": [
+    "#CompraDeEmpresas",
+    "#VentaDeEmpresas",
+    "#PyMEs",
+    "#EmpresasFamiliares",
+    "#NexoNegocios"
+  ],
+  "nota_publicacion": "Publicar como carrusel (8 imágenes, en orden).",
+  "slides": [
+    {
+      "layout": "portada",
+      "kicker": "Compradores",
+      "titulo": "Las 5 preguntas que\n==siempre hace un comprador.==",
+      "bajada": "Tenerlas respondidas cambia la negociación."
+    },
+    {
+      "layout": "texto",
+      "paso": "01",
+      "titulo": "¿Por qué vendés?",
+      "cuerpo": "Es la primera y la más importante. Una respuesta clara y creíble **da tranquilidad**."
+    },
+    {
+      "layout": "texto",
+      "paso": "02",
+      "titulo": "¿Qué pasa si vos no estás?",
+      "cuerpo": "El comprador necesita saber que la empresa **sigue funcionando** sin su dueño."
+    },
+    {
+      "layout": "texto",
+      "paso": "03",
+      "titulo": "¿De dónde vienen las ventas?",
+      "cuerpo": "Qué clientes, qué canales y qué tan **repartidos** están."
+    },
+    {
+      "layout": "texto",
+      "paso": "04",
+      "titulo": "¿Cuánto genera de verdad?",
+      "cuerpo": "El resultado **normalizado**, sin gastos personales ni hechos extraordinarios."
+    },
+    {
+      "layout": "texto",
+      "paso": "05",
+      "titulo": "¿Qué puede salir mal?",
+      "cuerpo": "Contingencias, dependencias y riesgos. Mejor contarlos antes de que **los encuentre él**."
+    },
+    {
+      "layout": "clave",
+      "texto": "Detrás de las cinco hay una sola duda:\n**¿puedo confiar en los números?**"
+    },
+    {
+      "layout": "cierre",
+      "titulo": "Quien llega con las respuestas ordenadas negocia desde otro lugar.",
+      "cuerpo": "Si querés saber cómo te vería hoy un comprador, escribinos. La conversación es confidencial.",
+      "cta": "Escribinos por mensaje directo"
+    }
+  ]
+}

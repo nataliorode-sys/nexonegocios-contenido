@@ -1,0 +1,25 @@
+{
+  "id": "2026-11-26-historia-historias-semana4",
+  "tipo": "historia",
+  "fecha": "2026-11-26",
+  "hora": "10:00",
+  "pilar": "Errores y mitos",
+  "titulo_interno": "Encuesta: ¿por qué se cae una venta?",
+  "caption": "",
+  "hashtags": [],
+  "nota_publicacion": "Historia 1: agregá el sticker de ENCUESTA con las opciones «El precio» / «La información». Historia 2: agregá el sticker de ENLACE o compartí el carrusel del martes.",
+  "slides": [
+    {
+      "layout": "encuesta",
+      "kicker": "Vos qué creés",
+      "titulo": "¿Qué hace caer más ventas de empresas?",
+      "cuerpo": "Elegí una."
+    },
+    {
+      "layout": "teaser",
+      "kicker": "La respuesta",
+      "titulo": "Son **cuatro razones**, y todas se ven venir.",
+      "cuerpo": "Las contamos en el carrusel del martes 👇"
+    }
+  ]
+}

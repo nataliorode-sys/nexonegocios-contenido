@@ -1,0 +1,25 @@
+{
+  "id": "2026-11-12-historia-historias-semana2",
+  "tipo": "historia",
+  "fecha": "2026-11-12",
+  "hora": "10:00",
+  "pilar": "Proceso",
+  "titulo_interno": "Encuesta: ¿aceptarías cobrar parte según resultados?",
+  "caption": "",
+  "hashtags": [],
+  "nota_publicacion": "Historia 1: agregá el sticker de ENCUESTA con las opciones «Sí, con una buena meta» / «Prefiero contado». Historia 2: agregá el sticker de ENLACE o compartí el reel del miércoles.",
+  "slides": [
+    {
+      "layout": "encuesta",
+      "kicker": "Vos qué harías",
+      "titulo": "¿Aceptarías cobrar parte de tu empresa según resultados?",
+      "cuerpo": "Es lo que se llama earn-out."
+    },
+    {
+      "layout": "teaser",
+      "kicker": "Te lo explicamos",
+      "titulo": "El earn-out, **con un ejemplo.**",
+      "cuerpo": "Mirá el reel del miércoles 👇"
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "id": "2026-11-16-carrusel-due-diligence",
+  "tipo": "carrusel",
+  "fecha": "2026-11-16",
+  "hora": "09:00",
+  "pilar": "Proceso",
+  "titulo_interno": "Due diligence: qué revisa el comprador y cómo prepararse",
+  "caption": "La due diligence es la etapa en la que el comprador revisa la empresa a fondo antes de pagar. Y es donde más operaciones se tensan.\n\nSe revisan cuatro frentes: lo financiero y contable, lo legal e impositivo, lo laboral y lo operativo. El comprador compara lo que le contaron con lo que muestran los papeles.\n\nLa diferencia entre una revisión tranquila y una que baja el precio casi siempre está en la preparación: una carpeta ordenada, números que cierran entre sí y las contingencias contadas a tiempo.\n\nSi estás pensando en vender y querés saber cómo está tu información, escribinos por mensaje directo.",
+  "hashtags": [
+    "#DueDiligence",
+    "#VentaDeEmpresas",
+    "#CompraDeEmpresas",
+    "#PyMEs",
+    "#NexoNegocios"
+  ],
+  "nota_publicacion": "Publicar como carrusel (8 imágenes, en orden).",
+  "slides": [
+    {
+      "layout": "portada",
+      "kicker": "Compraventa de empresas",
+      "titulo": "Due diligence:\n==lo que revisa el comprador antes de pagar.==",
+      "bajada": "Y cómo prepararte para que no baje el precio."
+    },
+    {
+      "layout": "lista",
+      "kicker": "Cuatro frentes",
+      "titulo": "Qué se revisa",
+      "items": [
+        {
+          "t": "Financiero y contable"
+        },
+        {
+          "t": "Legal e impositivo"
+        },
+        {
+          "t": "Laboral"
+        },
+        {
+          "t": "Operativo"
+        }
+      ]
+    },
+    {
+      "layout": "texto",
+      "paso": "01",
+      "titulo": "Financiero y contable",
+      "cuerpo": "Balances, ventas, márgenes y el **EBITDA normalizado**.\n\nEl comprador verifica que los números que le mostraron cierran entre sí."
+    },
+    {
+      "layout": "texto",
+      "paso": "02",
+      "titulo": "Legal e impositivo",
+      "cuerpo": "Estatuto, contratos, marcas, habilitaciones, juicios y situación fiscal.\n\nBusca **contingencias** que no estén a la vista."
+    },
+    {
+      "layout": "texto",
+      "paso": "03",
+      "titulo": "Laboral",
+      "cuerpo": "Personal registrado, convenios, antigüedades y reclamos.\n\nUn pasivo laboral oculto es de lo que más afecta el precio."
+    },
+    {
+      "layout": "texto",
+      "paso": "04",
+      "titulo": "Operativo",
+      "cuerpo": "Clientes, proveedores, procesos y el estado de los equipos.\n\nEl comprador quiere entender **cómo funciona** la empresa día a día."
+    },
+    {
+      "layout": "clave",
+      "texto": "Lo que se cuenta a tiempo se negocia.\n**Lo que aparece tarde, se descuenta.**"
+    },
+    {
+      "layout": "cierre",
+      "titulo": "La preparación hace la diferencia.",
+      "cuerpo": "Una carpeta ordenada, números que cierran entre sí y las contingencias contadas desde el principio.",
+      "cta": "Escribinos si querés revisar tu información"
+    }
+  ]
+}

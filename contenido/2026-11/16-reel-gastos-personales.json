@@ -1,0 +1,64 @@
+{
+  "id": "2026-11-27-reel-gastos-personales",
+  "tipo": "reel",
+  "fecha": "2026-11-27",
+  "hora": "12:30",
+  "pilar": "Errores y mitos",
+  "titulo_interno": "Mezclar gastos personales con la empresa: cuánto cuesta en la venta",
+  "caption": "Que la empresa pague el auto, el celular de la familia o un viaje es más común de lo que parece. El problema aparece al vender.\n\nEl comprador acepta sumar esos gastos como ajuste al EBITDA, pero solo los que se puedan identificar y respaldar. Lo que no tiene respaldo no se reconoce.\n\nEl costo más grande es otro: cuando los números están mezclados, el comprador empieza a dudar de todo lo demás. Y la duda se descuenta del precio.\n\nSeparar lo personal de lo empresarial con un par de años de anticipación es de lo más rentable que hay.\n\nLos números del video son un ejemplo ilustrativo.",
+  "hashtags": [
+    "#EBITDA",
+    "#VentaDeEmpresas",
+    "#PyMEs",
+    "#Finanzas",
+    "#NexoNegocios"
+  ],
+  "nota_publicacion": "Subir como Reel (9:16). Usar portada.jpg como portada. Ya trae música de fondo.",
+  "escenas": [
+    {
+      "layout": "gancho",
+      "kicker": "Error frecuente",
+      "texto": "El auto, el celular de la familia, un viaje… **pagados por la empresa.**"
+    },
+    {
+      "layout": "texto",
+      "titulo": "Al vender, se paga caro.",
+      "lineas": [
+        "El comprador suma esos gastos al EBITDA **solo si se pueden respaldar**.",
+        "Lo que no tiene respaldo, no se reconoce."
+      ]
+    },
+    {
+      "layout": "tabla",
+      "kicker": "Ejemplo ilustrativo",
+      "titulo": "Gastos personales por $20 M",
+      "filas": [
+        [
+          "Con respaldo · se suman al EBITDA",
+          "+$20 M",
+          "mas"
+        ],
+        [
+          "Sin respaldo · no se reconocen",
+          "$0"
+        ],
+        [
+          "× 4 de múltiplo",
+          "$80 M de diferencia",
+          "total"
+        ]
+      ]
+    },
+    {
+      "layout": "texto",
+      "titulo": "Y hay un costo mayor.",
+      "lineas": [
+        "Cuando los números están mezclados, el comprador **duda de todo lo demás**."
+      ]
+    },
+    {
+      "layout": "cierre",
+      "texto": "Separar lo personal de la empresa con tiempo es de lo más rentable que hay."
+    }
+  ]
+}
