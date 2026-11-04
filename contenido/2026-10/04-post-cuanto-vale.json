@@ -1,0 +1,61 @@
+{
+  "id": "2026-10-08-post-cuanto-vale",
+  "tipo": "carrusel",
+  "fecha": "2026-10-08",
+  "hora": "10:00",
+  "pilar": "Valor",
+  "titulo_interno": "¿Sabés cuánto vale tu empresa hoy?",
+  "slides": [
+    {
+      "layout": "portada",
+      "foto": "marca/fotos/natalio-01.jpg",
+      "kicker": "Pregunta para dueños",
+      "titulo": "¿Sabés cuánto vale\n==tu empresa hoy?==",
+      "bajada": "Sin contar lo que te gustaría que valga.",
+      "tam": 86
+    },
+    {
+      "layout": "texto",
+      "kicker": "Lo que vemos",
+      "titulo": "La mayoría de los dueños **sobreestima** su empresa.",
+      "cuerpo": "No por soberbia. Es que la miran desde adentro: los años de trabajo, lo que invirtieron, el mejor año de ventas.\n\nEl comprador mira otra cosa: **cuánto genera sin el dueño** y cuánto de eso se puede demostrar."
+    },
+    {
+      "layout": "comparacion",
+      "kicker": "La diferencia",
+      "titulo": "Dos números distintos",
+      "izq": {
+        "titulo": "El que tenés en la cabeza",
+        "items": [
+          "Sale de la facturación",
+          "Incluye lo que podría crecer",
+          "Nadie lo puso a prueba"
+        ]
+      },
+      "der": {
+        "titulo": "El de una valuación",
+        "items": [
+          "Sale de la ganancia normalizada",
+          "Considera riesgos y dependencias",
+          "Se puede defender en una negociación"
+        ]
+      }
+    },
+    {
+      "layout": "cierre",
+      "titulo": "Conocer el valor real no te obliga a vender.",
+      "cuerpo": "Te permite decidir con información: vender, sumar un socio, planificar la sucesión o simplemente saber dónde estás parado.",
+      "cta": "Escribinos y lo vemos juntos"
+    }
+  ],
+  "caption": "¿Sabés cuánto vale tu empresa hoy? No lo que te gustaría que valga: lo que pagaría un comprador.\n\nEn las valuaciones que hacemos, casi siempre aparece una distancia entre el número que el dueño tiene en la cabeza y el que resiste una negociación. No es soberbia. Es que desde adentro se ven los años de esfuerzo y la facturación, y el comprador mira cuánto genera la empresa sin su dueño y qué se puede demostrar con papeles.\n\nConocer el valor real no te obliga a vender. Te permite decidir con información.\n\nSi querés saber dónde está parada tu empresa, escribinos por mensaje directo. La conversación es confidencial.",
+  "hashtags": [
+    "#ValuacionDeEmpresas",
+    "#PyMEs",
+    "#EmpresasFamiliares",
+    "#VentaDeEmpresas",
+    "#NexoNegocios"
+  ],
+  "nota_publicacion": "Publicar como carrusel (4 imágenes, en orden). La portada lleva tu foto.",
+  "tema": "noche"
+}

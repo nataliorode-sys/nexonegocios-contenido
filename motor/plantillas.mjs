@@ -67,6 +67,8 @@ ol.items .id { font-size: 33px; color: ${color.gris}; line-height: 1.35; margin-
 .lienzo .velo { position: absolute; inset: 0; background: linear-gradient(180deg, rgba(15,29,36,.10) 0%, rgba(15,29,36,0) 30%, rgba(15,29,36,.85) 55%, rgba(15,29,36,.97) 100%); }
 .con-foto .centrado { position: relative; z-index: 1; justify-content: flex-end; padding-bottom: 60px; }
 .con-foto .pie { z-index: 1; }
+.con-foto:not(.story) .centrado { padding-bottom: 170px; }
+.con-foto .centrado > div { flex: 0 0 auto !important; padding-bottom: 0 !important; }
 .story .cuerpo { font-size: 54px; }
 .story .kicker { font-size: 32px; }
 .story .pie img { height: 66px; }
@@ -157,7 +159,7 @@ export function htmlEstatico(pieza, s, i, n, ancho, alto) {
   return `<!doctype html><html><head><meta charset="utf-8"><style>${css}</style></head>
   <body><div class="lienzo ${oscuro ? "oscuro" : `claro f-${fondo}`} ${story ? "story" : ""} ${s.foto ? "con-foto" : ""}" style="width:${ancho}px;height:${alto}px;${story ? "padding-top:250px" : ""}">
     ${capaFoto}${marcaAgua}
-    ${["texto","tabla","lista","comparacion","cierre","encuesta"].includes(s.layout) ? `<div class="centrado">${f(s)}</div>` : f(s)}
+    ${s.foto || ["texto","tabla","lista","comparacion","cierre","encuesta"].includes(s.layout) ? `<div class="centrado">${f(s)}</div>` : f(s)}
     ${pie(s, i, n, oscuro, story)}
   </div></body></html>`;
 }
