@@ -24,7 +24,7 @@ const piezas = fs.readdirSync(dirIn).filter((f) => f.endsWith(".json")).sort()
   .map((p) => { const r = rotacion[p.tipo]; const k = (contador[p.tipo] = (contador[p.tipo] ?? -1) + 1); return { ...p, tema: p.tema || r[k % r.length] }; })
   .filter((p) => !soloId || p.id === soloId);
 
-const navegador = await chromium.launch();
+const navegador = await chromium.launch().catch(() => chromium.launch({ executablePath: "/opt/pw-browsers/chromium" }));
 const FPS = 30;
 
 async function abrir(html, ancho, alto) {

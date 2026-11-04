@@ -10,7 +10,7 @@ const mes = process.argv[2];
 const dirOut = path.join(RAIZ, "salida", mes);
 const dirRev = path.join(dirOut, "_revision");
 fs.mkdirSync(dirRev, { recursive: true });
-const nav = await chromium.launch();
+const nav = await chromium.launch().catch(() => chromium.launch({ executablePath: "/opt/pw-browsers/chromium" }));
 for (const id of fs.readdirSync(dirOut).filter((d) => /^\d{4}-/.test(d)).sort()) {
   const dir = path.join(dirOut, id);
   let imgs = fs.readdirSync(dir).filter((f) => f.endsWith(".png")).sort().map((f) => path.join(dir, f));

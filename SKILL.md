@@ -59,6 +59,8 @@ Una vez por mes, el reel del viernes de la semana 3 es una **empresa en venta** 
 
 **Reel (1080×1920, 9:16, sin voz):** sale sin música (decisión de Natalio). `motor/musica.py` puede agregar un fondo instrumental propio si en algún momento se pide: `"musica_fondo": true` en la pieza. gancho que contradice una creencia o muestra un número (máx. 15 palabras) → 3-4 escenas de desarrollo → cierre. Texto grande, pocas palabras por escena. 
 
+**Fotos de Natalio:** están en `marca/fotos/` (la versión `-vertical` ya está recortada a 9:16). En un reel, la escena `gancho` acepta `"foto": "marca/fotos/…"`: la foto ocupa toda la pantalla con un velo oscuro abajo y el texto encima; conviene `"tam": 88` y `"dur": 4.5`. Usarla en la apertura de 1 o 2 reels por mes: da cara y confianza sin que Natalio tenga que filmarse.
+
 **Historias:** 1) encuesta o pregunta (se deja espacio vacío para el sticker), 2) dato breve que lleva al post de la semana.
 
 **Caption:** primera línea = el gancho (es lo único que se ve sin tocar «más»). Después 4-8 líneas cortas que desarrollan la idea y agregan algo que no está en las imágenes. Cierre: pregunta o «Guardalo». 4-6 hashtags específicos, siempre `#NexoNegocios`.

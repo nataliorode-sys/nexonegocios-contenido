@@ -1,5 +1,5 @@
 // Reels sin cara: escenas de texto animado (1080x1920), cuadro por cuadro.
-import { color, cssBase, logo, firma, md, sinCorte, fondos, temas } from "./marca.mjs";
+import { color, cssBase, logo, firma, md, sinCorte, fondos, temas, RAIZ } from "./marca.mjs";
 
 const css = `
 ${cssBase}
@@ -46,6 +46,10 @@ body { width: 1080px; height: 1920px; overflow: hidden; }
 .firma { margin-top: 50px; font-size: 38px; line-height: 1.4; }
 .firma b { display: block; font-size: 46px; }
 .seguir { margin-top: 60px; display: inline-flex; align-self: flex-start; background: ${color.verde}; color: #fff; font-weight: 800; font-size: 44px; padding: 26px 42px; border-radius: 100px; }
+.escena .foto { position: absolute; inset: 0; background-size: cover; background-position: center; z-index: 0; }
+.escena .velo { position: absolute; inset: 0; z-index: 0; background: linear-gradient(180deg, rgba(15,29,36,.12) 0%, rgba(15,29,36,0) 40%, rgba(15,29,36,.82) 70%, rgba(15,29,36,.96) 100%); }
+.escena.con-foto .centro { position: relative; z-index: 1; justify-content: flex-end; padding-bottom: 330px; }
+.escena.con-foto .titulo { text-shadow: 0 2px 24px rgba(0,0,0,.35); }
 .centro { flex: 1; display: flex; flex-direction: column; justify-content: center; padding-bottom: 260px; }
 .titulo b { color: ${color.verde}; }
 .col.bien b { color: #fff; text-decoration: underline; text-decoration-thickness: 4px; text-underline-offset: 8px; }
@@ -124,7 +128,8 @@ export function construirReel(pieza) {
     const ciclo = (temas[pieza.tema] || temas.noche).reel;
     const fondo = s.fondo || (s.layout === "cierre" && pieza.tema !== "papel" ? "oscuro" : ciclo[k % ciclo.length]);
     const oscuro = fondo === "oscuro";
-    bloques.push(`<div class="escena ${oscuro ? "oscuro" : `claro f-${fondo}`}" data-ini="${inicio}" data-dur="${dur}" data-tono="${oscuro ? "o" : "c"}">${html}</div>`);
+    const foto = s.foto ? `<div class="foto" style="background-image:url('file://${RAIZ}/${s.foto}')"></div><div class="velo"></div>` : "";
+    bloques.push(`<div class="escena ${s.foto ? "oscuro con-foto" : oscuro ? "oscuro" : `claro f-${fondo}`}" data-ini="${inicio}" data-dur="${dur}" data-tono="${oscuro || s.foto ? "o" : "c"}">${foto}${html}</div>`);
     tiempos.push({ inicio, dur, oscuro });
     inicio += dur;
   });
@@ -152,6 +157,7 @@ export function construirReel(pieza) {
             a.style.display = a.tagName === 'SPAN' ? 'inline-block' : '';
             a.style.transform = 'translateY(' + ((1 - p) * (+a.dataset.dy || 36)) + 'px)';
           }
+          for (const f of e.querySelectorAll('.foto')) f.style.transform = 'scale(' + (1.02 + 0.06 * Math.min(1, Math.max(0, loc / dur))) + ')';
           for (const c of e.querySelectorAll('[data-cuenta]')) {
             const p = ease((loc - 0.2) / 1.3), v = +c.dataset.cuenta * p, d = +c.dataset.dec;
             c.textContent = v.toLocaleString('es-AR', { minimumFractionDigits: d, maximumFractionDigits: d });
