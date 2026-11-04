@@ -18,10 +18,7 @@
     {
       "layout": "gancho",
       "kicker": "Mito",
-      "texto": "«Mi empresa es muy chica. **Nadie la va a querer comprar.**»",
-      "foto": "marca/fotos/natalio-01-vertical.jpg",
-      "dur": 4.5,
-      "tam": 88
+      "texto": "«Mi empresa es muy chica. **Nadie la va a querer comprar.**»"
     },
     {
       "layout": "texto",

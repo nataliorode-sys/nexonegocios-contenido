@@ -1,5 +1,5 @@
 // Plantillas fijas de carrusel (1080x1440, formato 3:4 de la cuadrícula de Instagram) e historia (1080x1920).
-import { color, cssBase, logo, firma, md, fondos, temas } from "./marca.mjs";
+import { color, cssBase, logo, firma, md, fondos, temas, RAIZ } from "./marca.mjs";
 
 const css = `
 ${cssBase}
@@ -63,6 +63,10 @@ ol.items .id { font-size: 33px; color: ${color.gris}; line-height: 1.35; margin-
 .guardalo { display: inline-flex; align-items: center; gap: 16px; background: ${color.verde}; color: #fff; font-weight: 800; font-size: 30px; padding: 20px 30px; border-radius: 100px; margin-top: 44px; align-self: flex-start; }
 .titulo b { color: ${color.verde}; }
 .marco-sticker { height: 300px; }
+.lienzo .foto { position: absolute; inset: 0; background-size: cover; background-position: center top; }
+.lienzo .velo { position: absolute; inset: 0; background: linear-gradient(180deg, rgba(15,29,36,.10) 0%, rgba(15,29,36,0) 30%, rgba(15,29,36,.85) 55%, rgba(15,29,36,.97) 100%); }
+.con-foto .centrado { position: relative; z-index: 1; justify-content: flex-end; padding-bottom: 60px; }
+.con-foto .pie { z-index: 1; }
 .story .cuerpo { font-size: 54px; }
 .story .kicker { font-size: 32px; }
 .story .pie img { height: 66px; }
@@ -145,13 +149,14 @@ export function htmlEstatico(pieza, s, i, n, ancho, alto) {
   const tema = temas[pieza.tema] || temas.noche;
   const rol = s.layout === "clave" ? "clave" : s.layout === "cierre" ? "cierre" : (i === 0 && !story) || s.layout === "encuesta" ? "portada" : "interior";
   const fondo = s.fondo || tema[rol];
-  const oscuro = fondo === "oscuro";
+  const oscuro = fondo === "oscuro" || !!s.foto;
+  const capaFoto = s.foto ? `<div class="foto" style="background-image:url('file://${RAIZ}/${s.foto}')"></div><div class="velo"></div>` : "";
   const marcaAgua = !oscuro && (rol === "portada" || s.layout === "teaser") ? `<img class="isotipo" src="${logo.isotipo}">` : "";
   const f = layouts[s.layout];
   if (!f) throw new Error(`Layout desconocido: ${s.layout} en ${pieza.id}`);
   return `<!doctype html><html><head><meta charset="utf-8"><style>${css}</style></head>
-  <body><div class="lienzo ${oscuro ? "oscuro" : `claro f-${fondo}`} ${story ? "story" : ""}" style="width:${ancho}px;height:${alto}px;${story ? "padding-top:250px" : ""}">
-    ${marcaAgua}
+  <body><div class="lienzo ${oscuro ? "oscuro" : `claro f-${fondo}`} ${story ? "story" : ""} ${s.foto ? "con-foto" : ""}" style="width:${ancho}px;height:${alto}px;${story ? "padding-top:250px" : ""}">
+    ${capaFoto}${marcaAgua}
     ${["texto","tabla","lista","comparacion","cierre","encuesta"].includes(s.layout) ? `<div class="centrado">${f(s)}</div>` : f(s)}
     ${pie(s, i, n, oscuro, story)}
   </div></body></html>`;
