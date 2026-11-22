@@ -1,0 +1,58 @@
+{
+  "id": "2026-12-30-reel-en-marcha-vs-cero",
+  "tipo": "reel",
+  "fecha": "2026-12-30",
+  "hora": "12:30",
+  "pilar": "Mercado",
+  "titulo_interno": "Comprar una empresa en marcha o empezar de cero",
+  "escenas": [
+    {
+      "layout": "gancho",
+      "kicker": "Para invertir en 2027",
+      "texto": "¿Empezar de cero **o comprar algo que ya funciona?**"
+    },
+    {
+      "layout": "comparacion",
+      "titulo": "Dos caminos",
+      "izq": {
+        "titulo": "Empezar de cero",
+        "texto": "Más barato al inicio, pero **años** hasta tener clientes, equipo y resultados."
+      },
+      "der": {
+        "titulo": "Comprar en marcha",
+        "texto": "Pagás más al principio, pero **desde el primer día** hay ventas y estructura."
+      }
+    },
+    {
+      "layout": "lista",
+      "titulo": "Lo que se compra con una empresa",
+      "items": [
+        {
+          "t": "Tiempo"
+        },
+        {
+          "t": "Clientes que ya compran"
+        },
+        {
+          "t": "Habilitaciones y trayectoria"
+        },
+        {
+          "t": "Un equipo que sabe hacer el trabajo"
+        }
+      ]
+    },
+    {
+      "layout": "cierre",
+      "texto": "Comprar una empresa es comprar tiempo. La clave es pagar el precio justo."
+    }
+  ],
+  "caption": "Para quien quiere invertir o crecer en 2027, hay dos caminos: empezar un negocio de cero o comprar uno que ya funciona.\n\nEmpezar de cero parece más barato, pero lleva años conseguir clientes, armar un equipo, obtener habilitaciones y llegar a resultados. Comprar una empresa en marcha cuesta más al principio, pero desde el primer día hay ventas y una estructura funcionando.\n\nEn el fondo, comprar una empresa es comprar tiempo. La clave está en pagar el precio justo y revisar bien lo que se compra.\n\n¿Vos qué elegirías?",
+  "hashtags": [
+    "#CompraDeEmpresas",
+    "#Inversiones",
+    "#Emprendedores",
+    "#PyMEs",
+    "#NexoNegocios"
+  ],
+  "nota_publicacion": "Subir como Reel (9:16). Usar portada.jpg como portada. Es el último del año: no hay reel el viernes 1 de enero."
+}

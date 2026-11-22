@@ -1,0 +1,62 @@
+{
+  "id": "2026-12-28-carrusel-carpeta-2027",
+  "tipo": "carrusel",
+  "fecha": "2026-12-28",
+  "hora": "09:00",
+  "pilar": "Proceso",
+  "titulo_interno": "La carpeta para vender: qué tener listo en 2027",
+  "slides": [
+    {
+      "layout": "portada",
+      "foto": "marca/fotos/natalio-01.jpg",
+      "tam": 84,
+      "kicker": "Para empezar el año",
+      "titulo": "Si en 2027 pensás vender,\n==empezá por esta carpeta.==",
+      "bajada": "Lo que un comprador va a pedir, ordenado."
+    },
+    {
+      "layout": "texto",
+      "paso": "01",
+      "titulo": "Societario",
+      "cuerpo": "Estatuto, actas, libros al día y quiénes son los socios.\n\nSi hay **acuerdos entre socios**, también."
+    },
+    {
+      "layout": "texto",
+      "paso": "02",
+      "titulo": "Contable e impositivo",
+      "cuerpo": "Balances de los últimos **tres años**, declaraciones juradas y el detalle de deudas fiscales o planes de pago."
+    },
+    {
+      "layout": "texto",
+      "paso": "03",
+      "titulo": "Laboral",
+      "cuerpo": "Nómina, recibos, cargas sociales al día y cualquier **reclamo o juicio** en curso."
+    },
+    {
+      "layout": "texto",
+      "paso": "04",
+      "titulo": "Comercial y activos",
+      "cuerpo": "Contratos con clientes y proveedores, alquileres, **marcas registradas**, habilitaciones y títulos de los bienes."
+    },
+    {
+      "layout": "clave",
+      "texto": "Una carpeta ordenada no sube el precio sola.\n**Evita que lo bajen.**"
+    },
+    {
+      "layout": "cierre",
+      "titulo": "Enero es un buen mes para ordenar.",
+      "cuerpo": "Si querés que revisemos juntos qué te falta, escribinos. La conversación es confidencial.",
+      "cta": "Escribinos por mensaje directo"
+    }
+  ],
+  "caption": "Si vender tu empresa es una posibilidad para 2027, hay algo que podés empezar a hacer en enero: armar la carpeta.\n\nEs la información que cualquier comprador va a pedir:\n\n1. Societario: estatuto, actas, libros y acuerdos entre socios.\n2. Contable e impositivo: balances de tres años, declaraciones juradas y deudas fiscales.\n3. Laboral: nómina, cargas sociales al día y reclamos en curso.\n4. Comercial y activos: contratos, alquileres, marcas, habilitaciones y títulos.\n\nUna carpeta ordenada no sube el precio por sí sola, pero evita que lo bajen y acorta los tiempos.\n\nSi querés que revisemos juntos qué te falta, escribinos por mensaje directo.\n\n¡Buen comienzo de año!",
+  "hashtags": [
+    "#VentaDeEmpresas",
+    "#DueDiligence",
+    "#EmpresasFamiliares",
+    "#PyMEs",
+    "#NexoNegocios"
+  ],
+  "nota_publicacion": "Publicar como carrusel (7 imágenes, en orden). La portada lleva tu foto.",
+  "tema": "noche"
+}

@@ -1,0 +1,80 @@
+{
+  "id": "2026-12-14-carrusel-activos-invisibles",
+  "tipo": "carrusel",
+  "fecha": "2026-12-14",
+  "hora": "09:00",
+  "pilar": "Valor",
+  "titulo_interno": "Activos que suben el valor y no están en el balance",
+  "slides": [
+    {
+      "layout": "portada",
+      "kicker": "Valuación de empresas",
+      "titulo": "Lo que más vale de tu empresa\n==no está en el balance.==",
+      "bajada": "Activos que un comprador paga y que la contabilidad no muestra."
+    },
+    {
+      "layout": "lista",
+      "kicker": "Lo invisible",
+      "titulo": "Cinco activos que no figuran",
+      "items": [
+        {
+          "t": "La marca",
+          "d": "Si está registrada a nombre de la empresa."
+        },
+        {
+          "t": "La cartera de clientes",
+          "d": "Sobre todo si compran de forma recurrente."
+        },
+        {
+          "t": "Contratos y habilitaciones",
+          "d": "Lo que a otro le llevaría años conseguir."
+        },
+        {
+          "t": "El equipo",
+          "d": "Gente que sabe hacer el trabajo sin vos."
+        },
+        {
+          "t": "Los procesos",
+          "d": "Cómo se hacen las cosas, escrito y repetible."
+        }
+      ]
+    },
+    {
+      "layout": "texto",
+      "paso": "01",
+      "titulo": "No figuran, pero se pagan",
+      "cuerpo": "El comprador no paga por estos activos por separado: los paga a través de una **ganancia más estable** y un **riesgo más bajo**.\n\nPor eso suben el valor de la empresa."
+    },
+    {
+      "layout": "texto",
+      "paso": "02",
+      "titulo": "Si no se pueden mostrar, no cuentan",
+      "cuerpo": "Una marca sin registrar, clientes sin contrato o procesos que solo están en tu cabeza **valen menos** para quien compra.\n\nLo que no se puede transferir, no se paga."
+    },
+    {
+      "layout": "texto",
+      "paso": "03",
+      "titulo": "Y otro detalle",
+      "cuerpo": "Hay bienes que en el balance valen cero porque ya se amortizaron, pero siguen funcionando.\n\nEn una valuación se miran **a valor real**, no contable."
+    },
+    {
+      "layout": "clave",
+      "texto": "El balance muestra lo que tenés.\n**El valor sale de lo que podés transferir.**"
+    },
+    {
+      "layout": "cierre",
+      "titulo": "Antes de vender, poné en orden lo invisible.",
+      "cuerpo": "Registrar la marca, formalizar contratos y escribir los procesos son de las mejoras más rentables.",
+      "cta": "Guardalo para cuando lo necesites"
+    }
+  ],
+  "caption": "Cuando se valúa una PyME, muchas veces lo que más pesa no aparece en el balance.\n\nLa marca, la cartera de clientes, los contratos, las habilitaciones, el equipo y los procesos son activos que un comprador valora mucho, porque hacen que la ganancia sea más estable y el riesgo más bajo.\n\nPero hay una condición: tienen que poder mostrarse y transferirse. Una marca sin registrar, clientes sin contrato o procesos que solo están en la cabeza del dueño valen bastante menos para quien compra.\n\nPoner en orden lo invisible es de las mejoras más rentables antes de vender.\n\n¿Cuál de estos activos tiene tu empresa en regla?",
+  "hashtags": [
+    "#ValuacionDeEmpresas",
+    "#VentaDeEmpresas",
+    "#EmpresasFamiliares",
+    "#PyMEs",
+    "#NexoNegocios"
+  ],
+  "nota_publicacion": "Publicar como carrusel (7 imágenes, en orden)."
+}

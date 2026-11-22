@@ -1,0 +1,61 @@
+{
+  "id": "2026-12-18-reel-empresa-con-problemas",
+  "tipo": "reel",
+  "fecha": "2026-12-18",
+  "hora": "12:30",
+  "pilar": "Mercado",
+  "titulo_interno": "Comprar una empresa con problemas: cuándo tiene sentido",
+  "escenas": [
+    {
+      "layout": "gancho",
+      "kicker": "Compradores",
+      "texto": "Hay compradores que buscan **empresas con problemas.** A propósito."
+    },
+    {
+      "layout": "texto",
+      "titulo": "¿Por qué?",
+      "lineas": [
+        "Porque ven algo que el dueño ya no puede aprovechar:",
+        "**clientes, marca, una planta o una habilitación**."
+      ]
+    },
+    {
+      "layout": "lista",
+      "titulo": "Cuándo tiene sentido",
+      "items": [
+        {
+          "t": "El problema es financiero, no del negocio",
+          "d": "Deudas, no falta de clientes."
+        },
+        {
+          "t": "El comprador aporta lo que falta",
+          "d": "Capital, gestión o escala."
+        },
+        {
+          "t": "La estructura protege al comprador",
+          "d": "Comprar activos y no la sociedad, por ejemplo."
+        }
+      ]
+    },
+    {
+      "layout": "texto",
+      "titulo": "Para el dueño también es una salida.",
+      "lineas": [
+        "Mejor que cerrar: se rescata **parte del valor** construido."
+      ]
+    },
+    {
+      "layout": "cierre",
+      "texto": "Una empresa con problemas no es una empresa sin valor."
+    }
+  ],
+  "caption": "No todos los compradores buscan empresas ordenadas y rentables. Algunos buscan, a propósito, empresas con problemas.\n\nLo que ven es algo que el dueño ya no puede aprovechar: una cartera de clientes, una marca conocida, una planta equipada o una habilitación difícil de conseguir.\n\nTiene sentido cuando el problema es financiero y no del negocio en sí, cuando el comprador aporta lo que falta (capital, gestión o escala) y cuando la operación se estructura para protegerlo, por ejemplo comprando los activos y no la sociedad.\n\nPara el dueño, muchas veces es una salida mucho mejor que cerrar.\n\nSi tu empresa está en esa situación, escribinos por mensaje directo. La conversación es confidencial.",
+  "hashtags": [
+    "#CompraDeEmpresas",
+    "#VentaDeEmpresas",
+    "#Inversiones",
+    "#PyMEs",
+    "#NexoNegocios"
+  ],
+  "nota_publicacion": "Subir como Reel (9:16). Usar portada.jpg como portada. Es el lugar del mes para una empresa en venta: si tenés una autorizada para publicar, avisá y se reemplaza."
+}

@@ -1,0 +1,11 @@
+Hay un ajuste que suele aparecer al final de la negociación y sorprende a muchos vendedores: el capital de trabajo.
+
+Es lo que la empresa necesita para operar día a día: lo que tiene por cobrar, más el stock, menos lo que debe a proveedores. El precio se acuerda suponiendo que la empresa se entrega con un nivel normal de ese capital.
+
+Si al cierre hay menos (porque se cobró todo y no se repuso stock, por ejemplo), el precio baja. Si hay más, puede subir.
+
+Por eso conviene acordar ese nivel normal por escrito antes de firmar.
+
+Los números del video son un ejemplo ilustrativo.
+
+#ValuacionDeEmpresas #CompraDeEmpresas #Finanzas #PyMEs #NexoNegocios

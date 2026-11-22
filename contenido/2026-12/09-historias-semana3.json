@@ -1,0 +1,25 @@
+{
+  "id": "2026-12-17-historia-capital-trabajo",
+  "tipo": "historia",
+  "fecha": "2026-12-17",
+  "hora": "10:00",
+  "pilar": "Valor",
+  "titulo_interno": "Verdadero o falso: el precio ya no cambia",
+  "slides": [
+    {
+      "layout": "encuesta",
+      "kicker": "¿Verdadero o falso?",
+      "titulo": "«Una vez acordado el precio, ya no cambia.»",
+      "cuerpo": "Respondé y mañana te contamos."
+    },
+    {
+      "layout": "teaser",
+      "kicker": "La respuesta",
+      "titulo": "**Falso.** Hay un ajuste al cierre.",
+      "cuerpo": "Se llama capital de trabajo. Lo explicamos en el reel del miércoles 👇"
+    }
+  ],
+  "caption": "",
+  "hashtags": [],
+  "nota_publicacion": "Historia 1: sticker de ENCUESTA con «Verdadero» / «Falso». Historia 2: subila al día siguiente con sticker de ENLACE al reel del miércoles."
+}

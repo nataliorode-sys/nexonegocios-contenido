@@ -9,13 +9,13 @@ Cada tema tiene el formato sugerido entre corchetes. Cuando se usa, agregar `✓
 - Qué es un múltiplo y por qué no se aplica igual a todas las empresas [reel] ✓ 2026-11-04
 - Por qué el dueño casi siempre sobreestima su empresa (y no es soberbia) [carrusel] ✓ 2026-11-02
 - La facturación no es el valor: por qué «X veces lo que factura» es un atajo peligroso [reel] ✓ 2026-10-21
-- Activos que suben el valor y no están en el balance: marca, contratos, habilitaciones, equipo [carrusel]
-- El inventario y los bienes de uso: cuándo suman al precio y cuándo no [reel]
+- Activos que suben el valor y no están en el balance: marca, contratos, habilitaciones, equipo [carrusel] ✓ 2026-12-14
+- El inventario y los bienes de uso: cuándo suman al precio y cuándo no [reel] ✓ 2026-12-02
 - Cómo afecta la informalidad al valor de una PyME argentina [carrusel]
 - Proyecciones: por qué el comprador no paga tu plan de negocios [reel] ✓ 2026-11-13
-- Capital de trabajo: el ajuste que aparece al final y cambia el precio [carrusel]
+- Capital de trabajo: el ajuste que aparece al final y cambia el precio [carrusel] ✓ 2026-12-16 (como reel)
 - Valuar para vender, para sumar un socio o para una sucesión: no es el mismo número [reel] ✓ 2026-11-18
-- Tres métodos de valuación explicados simple: múltiplos, flujo de fondos, activos [carrusel]
+- Tres métodos de valuación explicados simple: múltiplos, flujo de fondos, activos [carrusel] ✓ 2026-12-09
 - Qué hace que un comprador pague más: el precio estratégico vs. el precio financiero [reel]
 
 ## Proceso
@@ -23,14 +23,14 @@ Cada tema tiene el formato sugerido entre corchetes. Cuando se usa, agregar `✓
 - Las 5 etapas de una venta, de la valuación al cierre (infografía) [carrusel] ✓ 2026-10-19
 - Qué es un NDA y por qué se firma antes de mostrar los números [reel] ✓ 2026-10-16
 - Teaser y memorándum: qué se muestra en cada etapa sin exponer la empresa [carrusel] ✓ 2026-11-09
-- La carta de intención (LOI): qué se acuerda y qué todavía no [reel]
+- La carta de intención (LOI): qué se acuerda y qué todavía no [reel] ✓ 2026-12-04
 - Due diligence: qué revisa el comprador y cómo prepararse [carrusel] ✓ 2026-11-16
 - Cómo se paga una empresa: contado, cuotas, earn-out, retenciones [carrusel] ✓ 2026-10-26
 - Earn-out explicado con un ejemplo: cuando parte del precio depende del futuro [reel] ✓ 2026-11-11
 - Cuánto tarda vender una empresa y de qué depende [reel] ✓ 2026-11-25
-- La transición: cuánto tiempo se queda el dueño después de vender [reel]
+- La transición: cuánto tiempo se queda el dueño después de vender [reel] ✓ 2026-12-23
 - Cómo vender sin que se enteren empleados, clientes ni competidores [carrusel]
-- Qué documentación tener lista antes de salir a vender (checklist) [carrusel]
+- Qué documentación tener lista antes de salir a vender (checklist) [carrusel] ✓ 2026-12-28
 - Vender el 100%, una parte o sumar un socio: tres caminos distintos [carrusel]
 
 ## Errores y mitos
@@ -40,16 +40,17 @@ Cada tema tiene el formato sugerido entre corchetes. Cuando se usa, agregar `✓
 - El error más caro: salir a vender con un precio que nunca se va a pagar [reel] ✓ 2026-10-28
 - Publicar la empresa en un portal: por qué puede bajar el valor [carrusel] — NO USAR mientras exista Nexo Directo (contradice ese servicio)
 - Negociar el precio antes de definir la estructura [reel]
-- Esperar a estar cansado o con problemas para vender [carrusel]
+- Esperar a estar cansado o con problemas para vender [carrusel] ✓ 2026-12-21
 - Mezclar gastos personales con la empresa: cuánto cuesta en la venta [reel] ✓ 2026-11-27
 - Las 4 razones por las que se caen las operaciones [carrusel] ✓ 2026-11-24
 - Mostrar demasiada información demasiado pronto [reel]
+- Dejar de invertir en la empresa mientras se vende [reel] ✓ 2026-12-11
 
 ## Mercado
 - Sucesión en empresas familiares: cuando los hijos no quieren seguir [carrusel] ✓ 2026-10-30 (como reel)
-- Comprar una empresa en marcha vs. empezar de cero: tiempo, riesgo, habilitaciones [carrusel]
+- Comprar una empresa en marcha vs. empezar de cero: tiempo, riesgo, habilitaciones [carrusel] ✓ 2026-12-30 (como reel)
 - Quién compra PyMEs hoy: competidores, inversores, empresarios de otro rubro, fondos [reel] ✓ 2026-10-23
 - Por qué un competidor puede pagar más que un inversor financiero [reel] ✓ 2026-11-20
 - Qué buscan los compradores en una PyME (las 5 preguntas que siempre aparecen) [carrusel] ✓ 2026-11-30
-- Comprar una empresa con problemas para ponerla en valor: cuándo tiene sentido [reel]
+- Comprar una empresa con problemas para ponerla en valor: cuándo tiene sentido [reel] ✓ 2026-12-18
 - Empresa en venta del mes (gancho «Gente del sector…», solo con datos autorizados por Natalio) [reel]

@@ -1,0 +1,76 @@
+{
+  "id": "2026-12-21-carrusel-no-esperar",
+  "tipo": "carrusel",
+  "fecha": "2026-12-21",
+  "hora": "09:00",
+  "pilar": "Errores y mitos",
+  "titulo_interno": "Esperar a estar cansado para vender",
+  "slides": [
+    {
+      "layout": "portada",
+      "kicker": "Venta de empresas",
+      "titulo": "El peor momento para vender\n==es cuando ya no das más.==",
+      "bajada": "Y es justo cuando la mayoría de los dueños empieza."
+    },
+    {
+      "layout": "comparacion",
+      "kicker": "Dos momentos",
+      "titulo": "Vender bien vs. vender apurado",
+      "izq": {
+        "titulo": "Cansado o con problemas",
+        "items": [
+          "Resultados en baja",
+          "Urgencia por cerrar",
+          "El comprador lo nota",
+          "Se negocia a la defensiva"
+        ]
+      },
+      "der": {
+        "titulo": "Con la empresa bien",
+        "items": [
+          "Resultados estables o en suba",
+          "Tiempo para elegir comprador",
+          "Podés decir que no",
+          "Se negocia desde la fortaleza"
+        ]
+      }
+    },
+    {
+      "layout": "texto",
+      "paso": "01",
+      "titulo": "El cansancio se nota en los números",
+      "cuerpo": "Cuando el dueño pierde energía, la empresa también: menos clientes nuevos, menos control, menos inversión.\n\nY el comprador mira **los últimos años**."
+    },
+    {
+      "layout": "texto",
+      "paso": "02",
+      "titulo": "La urgencia baja el precio",
+      "cuerpo": "Si necesitás vender ya, el comprador lo percibe y lo usa.\n\nTener **tiempo** es una ventaja que vale plata."
+    },
+    {
+      "layout": "texto",
+      "paso": "03",
+      "titulo": "Prepararse lleva tiempo",
+      "cuerpo": "Ordenar los números, reducir la dependencia del dueño y formalizar contratos lleva meses.\n\nConviene empezar **antes** de necesitarlo."
+    },
+    {
+      "layout": "clave",
+      "texto": "La mejor venta se planifica\n**cuando todavía no hace falta vender.**"
+    },
+    {
+      "layout": "cierre",
+      "titulo": "Si pensás vender en los próximos años, el momento de empezar es ahora.",
+      "cuerpo": "No para salir mañana, sino para llegar en las mejores condiciones.",
+      "cta": "Compartilo con tu socio"
+    }
+  ],
+  "caption": "La mayoría de los dueños empieza a pensar en vender cuando está cansado, cuando aparece un problema de salud o cuando los resultados vienen en baja. Es justo el peor momento.\n\nEl cansancio se nota en los números, y el comprador mira los últimos años. La urgencia también se nota, y baja el precio.\n\nEn cambio, quien prepara la venta con la empresa funcionando bien tiene tiempo para ordenar, elegir comprador y negociar desde la fortaleza. Incluso puede decir que no.\n\nSi pensás vender en los próximos años, el momento de empezar a prepararlo es ahora.\n\n¿Cuántos años te imaginás todavía al frente de tu empresa?",
+  "hashtags": [
+    "#VentaDeEmpresas",
+    "#EmpresasFamiliares",
+    "#Sucesion",
+    "#PyMEs",
+    "#NexoNegocios"
+  ],
+  "nota_publicacion": "Publicar como carrusel (7 imágenes, en orden)."
+}

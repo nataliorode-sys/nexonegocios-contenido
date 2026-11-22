@@ -1,0 +1,58 @@
+{
+  "id": "2026-12-23-reel-transicion",
+  "tipo": "reel",
+  "fecha": "2026-12-23",
+  "hora": "12:30",
+  "pilar": "Proceso",
+  "titulo_interno": "Después de vender: cuánto tiempo se queda el dueño",
+  "escenas": [
+    {
+      "layout": "gancho",
+      "kicker": "Venta de empresas",
+      "texto": "Vendiste tu empresa. **¿Te podés ir al otro día?** Casi nunca."
+    },
+    {
+      "layout": "texto",
+      "titulo": "Se llama transición.",
+      "lineas": [
+        "Un período en el que el vendedor **acompaña** al comprador.",
+        "Para que clientes, proveedores y equipo no se pierdan en el cambio."
+      ]
+    },
+    {
+      "layout": "lista",
+      "titulo": "Lo que hay que definir",
+      "items": [
+        {
+          "t": "Cuánto tiempo",
+          "d": "Desde semanas hasta más de un año."
+        },
+        {
+          "t": "Con qué dedicación",
+          "d": "Tiempo completo, parcial o a consulta."
+        },
+        {
+          "t": "Si se paga aparte",
+          "d": "O si está incluido en el precio."
+        },
+        {
+          "t": "Si hay parte del precio atada",
+          "d": "A que la transición salga bien."
+        }
+      ]
+    },
+    {
+      "layout": "cierre",
+      "texto": "Cuanto menos dependa la empresa de vos, más corta es la transición."
+    }
+  ],
+  "caption": "Una pregunta que casi todos los dueños hacen: después de vender, ¿cuánto tiempo me tengo que quedar?\n\nCasi siempre hay un período de transición. El vendedor acompaña al comprador para presentar clientes y proveedores, transmitir cómo se hacen las cosas y darle tranquilidad al equipo.\n\nPuede durar desde unas semanas hasta más de un año, según cuánto dependa la empresa del dueño. Conviene dejar escrito cuánto dura, con qué dedicación, si se paga aparte y si una parte del precio depende de que salga bien.\n\nLa mejor forma de acortarla es prepararse antes: cuanto menos dependa la empresa de vos, más fácil es el traspaso.\n\n¿Cuánto tiempo te imaginás acompañando a un comprador?",
+  "hashtags": [
+    "#VentaDeEmpresas",
+    "#EmpresasFamiliares",
+    "#Sucesion",
+    "#PyMEs",
+    "#NexoNegocios"
+  ],
+  "nota_publicacion": "Subir como Reel (9:16). Usar portada.jpg como portada. No hay reel el viernes 25 (Navidad)."
+}

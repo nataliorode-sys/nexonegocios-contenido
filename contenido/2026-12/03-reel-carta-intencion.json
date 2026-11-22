@@ -1,0 +1,66 @@
+{
+  "id": "2026-12-04-reel-carta-intencion",
+  "tipo": "reel",
+  "fecha": "2026-12-04",
+  "hora": "12:30",
+  "pilar": "Proceso",
+  "titulo_interno": "La carta de intención: qué se acuerda y qué todavía no",
+  "escenas": [
+    {
+      "layout": "gancho",
+      "kicker": "Compraventa de empresas",
+      "texto": "Llegó una carta de intención. **¿Ya vendiste?** Todavía no."
+    },
+    {
+      "layout": "texto",
+      "titulo": "Qué es",
+      "lineas": [
+        "Un documento donde el comprador dice **cuánto y cómo** quiere comprar.",
+        "Es el paso entre el interés y la revisión a fondo."
+      ]
+    },
+    {
+      "layout": "lista",
+      "titulo": "Lo que suele incluir",
+      "items": [
+        {
+          "t": "Precio o rango y forma de pago"
+        },
+        {
+          "t": "Qué se compra: acciones o activos"
+        },
+        {
+          "t": "Plazo para la due diligence"
+        },
+        {
+          "t": "Exclusividad por un tiempo"
+        }
+      ]
+    },
+    {
+      "layout": "comparacion",
+      "titulo": "Ojo con esto",
+      "izq": {
+        "titulo": "En general no obliga",
+        "texto": "El precio todavía puede cambiar después de la revisión."
+      },
+      "der": {
+        "titulo": "Sí obliga",
+        "texto": "La **exclusividad** y la **confidencialidad**: mientras dure, no negociás con otros."
+      }
+    },
+    {
+      "layout": "cierre",
+      "texto": "Firmá la carta cuando el precio y las condiciones ya te cierran."
+    }
+  ],
+  "caption": "La carta de intención (en inglés, LOI) es el momento en que un comprador pone por escrito cuánto y cómo quiere comprar tu empresa.\n\nSuele incluir el precio o un rango, la forma de pago, qué se compra (acciones o activos), el plazo para la due diligence y un período de exclusividad.\n\nEn general no obliga a cerrar: el precio puede ajustarse después de la revisión. Pero hay cláusulas que sí obligan desde la firma, como la exclusividad y la confidencialidad. Mientras corre la exclusividad, no podés negociar con otros interesados.\n\nPor eso conviene firmarla cuando el precio y las condiciones ya te cierran, no para \"ver qué pasa\".\n\nGuardalo si estás negociando.",
+  "hashtags": [
+    "#CompraDeEmpresas",
+    "#VentaDeEmpresas",
+    "#FusionesYAdquisiciones",
+    "#PyMEs",
+    "#NexoNegocios"
+  ],
+  "nota_publicacion": "Subir como Reel (9:16). Usar portada.jpg como portada."
+}

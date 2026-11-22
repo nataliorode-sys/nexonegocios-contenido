@@ -1,0 +1,58 @@
+{
+  "id": "2026-12-11-reel-dejar-de-invertir",
+  "tipo": "reel",
+  "fecha": "2026-12-11",
+  "hora": "12:30",
+  "pilar": "Errores y mitos",
+  "titulo_interno": "El error de dejar de invertir mientras se vende",
+  "escenas": [
+    {
+      "layout": "gancho",
+      "kicker": "Error frecuente",
+      "texto": "Decidiste vender y **dejaste de invertir.** Eso te puede costar caro."
+    },
+    {
+      "layout": "texto",
+      "titulo": "Es una reacción lógica.",
+      "lineas": [
+        "«Para qué voy a poner plata si me voy».",
+        "Pero vender lleva meses, y el comprador **mira los últimos números**."
+      ]
+    },
+    {
+      "layout": "lista",
+      "titulo": "Lo que pasa",
+      "items": [
+        {
+          "t": "Bajan las ventas o los márgenes"
+        },
+        {
+          "t": "El comprador ve una empresa en caída"
+        },
+        {
+          "t": "Se renegocia el precio, o se cae la operación"
+        }
+      ]
+    },
+    {
+      "layout": "texto",
+      "titulo": "Hasta el día del cierre,",
+      "lineas": [
+        "la empresa tiene que funcionar **como si no se vendiera**."
+      ]
+    },
+    {
+      "layout": "cierre",
+      "texto": "El mejor argumento de venta es una empresa que sigue creciendo."
+    }
+  ],
+  "caption": "Pasa muy seguido: el dueño decide vender y, casi sin darse cuenta, deja de invertir. Posterga compras, no repone personal, deja de buscar clientes nuevos.\n\nEs una reacción lógica. Pero un proceso de venta lleva meses, y el comprador mira los números más recientes. Si las ventas o los márgenes empiezan a caer, ve una empresa en baja y ajusta su oferta. A veces, directamente se retira.\n\nHasta el día del cierre, la empresa tiene que seguir funcionando como si no se vendiera. Es la mejor forma de proteger el precio.\n\n¿Te pasó o lo viste en alguien?",
+  "hashtags": [
+    "#VentaDeEmpresas",
+    "#EmpresasFamiliares",
+    "#Negociacion",
+    "#PyMEs",
+    "#NexoNegocios"
+  ],
+  "nota_publicacion": "Subir como Reel (9:16). Usar portada.jpg como portada."
+}

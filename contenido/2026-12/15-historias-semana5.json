@@ -1,0 +1,25 @@
+{
+  "id": "2026-12-29-historia-2027",
+  "tipo": "historia",
+  "fecha": "2026-12-29",
+  "hora": "10:00",
+  "pilar": "Proceso",
+  "titulo_interno": "Encuesta: ¿2027 es el año?",
+  "slides": [
+    {
+      "layout": "encuesta",
+      "kicker": "Último del año",
+      "titulo": "¿2027 es el año de vender, sumar un socio o planificar la sucesión?",
+      "cuerpo": "Contanos."
+    },
+    {
+      "layout": "teaser",
+      "kicker": "Para empezar",
+      "titulo": "La carpeta que vas a necesitar, **ordenada en 4 partes.**",
+      "cuerpo": "Está en el carrusel del lunes 👇"
+    }
+  ],
+  "caption": "",
+  "hashtags": [],
+  "nota_publicacion": "Historia 1: sticker de ENCUESTA con «Sí» / «Todavía no». Historia 2: sticker de ENLACE o compartí el carrusel del lunes."
+}
